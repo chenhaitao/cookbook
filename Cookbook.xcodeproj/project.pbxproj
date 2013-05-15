@@ -18,6 +18,16 @@
 		5F52472C174276A000157533 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F52472B174276A000157533 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		5FA3D9E717433AA700DE76A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FA3D9E317433AA600DE76A4 /* UIAlertViewDemo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5FA3D9BD17433AA600DE76A4;
+			remoteInfo = UIAlertViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		5F5247121742769F00157533 /* Cookbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cookbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F5247151742769F00157533 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -32,6 +42,7 @@
 		5F524727174276A000157533 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		5F524729174276A000157533 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		5F52472B174276A000157533 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5FA3D9E317433AA600DE76A4 /* UIAlertViewDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UIAlertViewDemo.xcodeproj; path = UIAlertViewDemo/UIAlertViewDemo.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +89,7 @@
 		5F52471B1742769F00157533 /* Cookbook */ = {
 			isa = PBXGroup;
 			children = (
+				5FA3D9B317433A8400DE76A4 /* 控制器与视图 */,
 				5F524724174276A000157533 /* AppDelegate.h */,
 				5F524725174276A000157533 /* AppDelegate.m */,
 				5F52471C174276A000157533 /* Supporting Files */,
@@ -97,6 +109,22 @@
 				5F52472B174276A000157533 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5FA3D9B317433A8400DE76A4 /* 控制器与视图 */ = {
+			isa = PBXGroup;
+			children = (
+				5FA3D9E317433AA600DE76A4 /* UIAlertViewDemo.xcodeproj */,
+			);
+			name = "控制器与视图";
+			sourceTree = "<group>";
+		};
+		5FA3D9E417433AA600DE76A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FA3D9E817433AA700DE76A4 /* UIAlertViewDemo.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,12 +166,28 @@
 			mainGroup = 5F5247091742769F00157533;
 			productRefGroup = 5F5247131742769F00157533 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5FA3D9E417433AA600DE76A4 /* Products */;
+					ProjectRef = 5FA3D9E317433AA600DE76A4 /* UIAlertViewDemo.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				5F5247111742769F00157533 /* Cookbook */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		5FA3D9E817433AA700DE76A4 /* UIAlertViewDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = UIAlertViewDemo.app;
+			remoteRef = 5FA3D9E717433AA700DE76A4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		5F5247101742769F00157533 /* Resources */ = {
