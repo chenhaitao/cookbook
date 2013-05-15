@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5FA346ED1743CB3400B22AE8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FA346EC1743CB3400B22AE8 /* UIKit.framework */; };
+		5FA346EF1743CB3400B22AE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FA346EE1743CB3400B22AE8 /* Foundation.framework */; };
+		5FA346F11743CB3400B22AE8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FA346F01743CB3400B22AE8 /* CoreGraphics.framework */; };
+		5FA346F71743CB3400B22AE8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5FA346F51743CB3400B22AE8 /* InfoPlist.strings */; };
+		5FA346F91743CB3400B22AE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA346F81743CB3400B22AE8 /* main.m */; };
+		5FA346FD1743CB3400B22AE8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA346FC1743CB3400B22AE8 /* AppDelegate.m */; };
+		5FA346FF1743CB3400B22AE8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FA346FE1743CB3400B22AE8 /* Default.png */; };
+		5FA347011743CB3400B22AE8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FA347001743CB3400B22AE8 /* Default@2x.png */; };
+		5FA347031743CB3400B22AE8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FA347021743CB3400B22AE8 /* Default-568h@2x.png */; };
+		5FA347061743CB3400B22AE8 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FA347041743CB3400B22AE8 /* MainStoryboard.storyboard */; };
+		5FA347091743CB3400B22AE8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA347081743CB3400B22AE8 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5FA346E91743CB3400B22AE8 /* Creating and using switches with UISwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Creating and using switches with UISwitch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FA346EC1743CB3400B22AE8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5FA346EE1743CB3400B22AE8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5FA346F01743CB3400B22AE8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5FA346F41743CB3400B22AE8 /* Creating and using switches with UISwitch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Creating and using switches with UISwitch-Info.plist"; sourceTree = "<group>"; };
+		5FA346F61743CB3400B22AE8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5FA346F81743CB3400B22AE8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5FA346FA1743CB3400B22AE8 /* Creating and using switches with UISwitch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Creating and using switches with UISwitch-Prefix.pch"; sourceTree = "<group>"; };
+		5FA346FB1743CB3400B22AE8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5FA346FC1743CB3400B22AE8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5FA346FE1743CB3400B22AE8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5FA347001743CB3400B22AE8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5FA347021743CB3400B22AE8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5FA347051743CB3400B22AE8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		5FA347071743CB3400B22AE8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5FA347081743CB3400B22AE8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FA346E61743CB3400B22AE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FA346ED1743CB3400B22AE8 /* UIKit.framework in Frameworks */,
+				5FA346EF1743CB3400B22AE8 /* Foundation.framework in Frameworks */,
+				5FA346F11743CB3400B22AE8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FA346E01743CB3400B22AE8 = {
+			isa = PBXGroup;
+			children = (
+				5FA346F21743CB3400B22AE8 /* Creating and using switches with UISwitch */,
+				5FA346EB1743CB3400B22AE8 /* Frameworks */,
+				5FA346EA1743CB3400B22AE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FA346EA1743CB3400B22AE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FA346E91743CB3400B22AE8 /* Creating and using switches with UISwitch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FA346EB1743CB3400B22AE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FA346EC1743CB3400B22AE8 /* UIKit.framework */,
+				5FA346EE1743CB3400B22AE8 /* Foundation.framework */,
+				5FA346F01743CB3400B22AE8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5FA346F21743CB3400B22AE8 /* Creating and using switches with UISwitch */ = {
+			isa = PBXGroup;
+			children = (
+				5FA346FB1743CB3400B22AE8 /* AppDelegate.h */,
+				5FA346FC1743CB3400B22AE8 /* AppDelegate.m */,
+				5FA347041743CB3400B22AE8 /* MainStoryboard.storyboard */,
+				5FA347071743CB3400B22AE8 /* ViewController.h */,
+				5FA347081743CB3400B22AE8 /* ViewController.m */,
+				5FA346F31743CB3400B22AE8 /* Supporting Files */,
+			);
+			path = "Creating and using switches with UISwitch";
+			sourceTree = "<group>";
+		};
+		5FA346F31743CB3400B22AE8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FA346F41743CB3400B22AE8 /* Creating and using switches with UISwitch-Info.plist */,
+				5FA346F51743CB3400B22AE8 /* InfoPlist.strings */,
+				5FA346F81743CB3400B22AE8 /* main.m */,
+				5FA346FA1743CB3400B22AE8 /* Creating and using switches with UISwitch-Prefix.pch */,
+				5FA346FE1743CB3400B22AE8 /* Default.png */,
+				5FA347001743CB3400B22AE8 /* Default@2x.png */,
+				5FA347021743CB3400B22AE8 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FA346E81743CB3400B22AE8 /* Creating and using switches with UISwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FA3470C1743CB3400B22AE8 /* Build configuration list for PBXNativeTarget "Creating and using switches with UISwitch" */;
+			buildPhases = (
+				5FA346E51743CB3400B22AE8 /* Sources */,
+				5FA346E61743CB3400B22AE8 /* Frameworks */,
+				5FA346E71743CB3400B22AE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Creating and using switches with UISwitch";
+			productName = "Creating and using switches with UISwitch";
+			productReference = 5FA346E91743CB3400B22AE8 /* Creating and using switches with UISwitch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FA346E11743CB3400B22AE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "陈 海涛";
+			};
+			buildConfigurationList = 5FA346E41743CB3400B22AE8 /* Build configuration list for PBXProject "Creating and using switches with UISwitch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5FA346E01743CB3400B22AE8;
+			productRefGroup = 5FA346EA1743CB3400B22AE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FA346E81743CB3400B22AE8 /* Creating and using switches with UISwitch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FA346E71743CB3400B22AE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FA346F71743CB3400B22AE8 /* InfoPlist.strings in Resources */,
+				5FA346FF1743CB3400B22AE8 /* Default.png in Resources */,
+				5FA347011743CB3400B22AE8 /* Default@2x.png in Resources */,
+				5FA347031743CB3400B22AE8 /* Default-568h@2x.png in Resources */,
+				5FA347061743CB3400B22AE8 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FA346E51743CB3400B22AE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FA346F91743CB3400B22AE8 /* main.m in Sources */,
+				5FA346FD1743CB3400B22AE8 /* AppDelegate.m in Sources */,
+				5FA347091743CB3400B22AE8 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5FA346F51743CB3400B22AE8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FA346F61743CB3400B22AE8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5FA347041743CB3400B22AE8 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FA347051743CB3400B22AE8 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FA3470A1743CB3400B22AE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5FA3470B1743CB3400B22AE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FA3470D1743CB3400B22AE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Creating and using switches with UISwitch/Creating and using switches with UISwitch-Prefix.pch";
+				INFOPLIST_FILE = "Creating and using switches with UISwitch/Creating and using switches with UISwitch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5FA3470E1743CB3400B22AE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Creating and using switches with UISwitch/Creating and using switches with UISwitch-Prefix.pch";
+				INFOPLIST_FILE = "Creating and using switches with UISwitch/Creating and using switches with UISwitch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FA346E41743CB3400B22AE8 /* Build configuration list for PBXProject "Creating and using switches with UISwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FA3470A1743CB3400B22AE8 /* Debug */,
+				5FA3470B1743CB3400B22AE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FA3470C1743CB3400B22AE8 /* Build configuration list for PBXNativeTarget "Creating and using switches with UISwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FA3470D1743CB3400B22AE8 /* Debug */,
+				5FA3470E1743CB3400B22AE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FA346E11743CB3400B22AE8 /* Project object */;
+}

@@ -19,6 +19,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		5FA347131743CB3500B22AE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FA3470F1743CB3400B22AE8 /* Creating and using switches with UISwitch.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5FA346E91743CB3400B22AE8;
+			remoteInfo = "Creating and using switches with UISwitch";
+		};
+		5FA347491743D17900B22AE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FA347451743D17800B22AE8 /* UIPickerViewDemo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5FA3471F1743D17800B22AE8;
+			remoteInfo = UIPickerViewDemo;
+		};
 		5FA3D9E717433AA700DE76A4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5FA3D9E317433AA600DE76A4 /* UIAlertViewDemo.xcodeproj */;
@@ -42,6 +56,8 @@
 		5F524727174276A000157533 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		5F524729174276A000157533 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		5F52472B174276A000157533 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5FA3470F1743CB3400B22AE8 /* Creating and using switches with UISwitch.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Creating and using switches with UISwitch.xcodeproj"; path = "Creating and using switches with UISwitch/Creating and using switches with UISwitch.xcodeproj"; sourceTree = "<group>"; };
+		5FA347451743D17800B22AE8 /* UIPickerViewDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UIPickerViewDemo.xcodeproj; path = UIPickerViewDemo/UIPickerViewDemo.xcodeproj; sourceTree = "<group>"; };
 		5FA3D9E317433AA600DE76A4 /* UIAlertViewDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UIAlertViewDemo.xcodeproj; path = UIAlertViewDemo/UIAlertViewDemo.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,10 +127,28 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		5FA347101743CB3400B22AE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FA347141743CB3500B22AE8 /* Creating and using switches with UISwitch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FA347461743D17800B22AE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FA3474A1743D17900B22AE8 /* UIPickerViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		5FA3D9B317433A8400DE76A4 /* 控制器与视图 */ = {
 			isa = PBXGroup;
 			children = (
 				5FA3D9E317433AA600DE76A4 /* UIAlertViewDemo.xcodeproj */,
+				5FA3470F1743CB3400B22AE8 /* Creating and using switches with UISwitch.xcodeproj */,
+				5FA347451743D17800B22AE8 /* UIPickerViewDemo.xcodeproj */,
 			);
 			name = "控制器与视图";
 			sourceTree = "<group>";
@@ -168,8 +202,16 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
+					ProductGroup = 5FA347101743CB3400B22AE8 /* Products */;
+					ProjectRef = 5FA3470F1743CB3400B22AE8 /* Creating and using switches with UISwitch.xcodeproj */;
+				},
+				{
 					ProductGroup = 5FA3D9E417433AA600DE76A4 /* Products */;
 					ProjectRef = 5FA3D9E317433AA600DE76A4 /* UIAlertViewDemo.xcodeproj */;
+				},
+				{
+					ProductGroup = 5FA347461743D17800B22AE8 /* Products */;
+					ProjectRef = 5FA347451743D17800B22AE8 /* UIPickerViewDemo.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -180,6 +222,20 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		5FA347141743CB3500B22AE8 /* Creating and using switches with UISwitch.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Creating and using switches with UISwitch.app";
+			remoteRef = 5FA347131743CB3500B22AE8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5FA3474A1743D17900B22AE8 /* UIPickerViewDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = UIPickerViewDemo.app;
+			remoteRef = 5FA347491743D17900B22AE8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		5FA3D9E817433AA700DE76A4 /* UIAlertViewDemo.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
