@@ -19,6 +19,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		5F9EDDB3174473DD0093A141 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F9EDDAF174473DC0093A141 /* UISliderDemo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5F9EDD89174473DC0093A141;
+			remoteInfo = UISliderDemo;
+		};
+		5F9EDDC91744C4650093A141 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F9EDD77174466130093A141 /* UIDatePickerDemo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5F9EDD51174466130093A141;
+			remoteInfo = UIDatePickerDemo;
+		};
 		5FA347131743CB3500B22AE8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5FA3470F1743CB3400B22AE8 /* Creating and using switches with UISwitch.xcodeproj */;
@@ -43,20 +57,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5F5247121742769F00157533 /* Cookbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cookbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F5247121742769F00157533 /* Cookbook5.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cookbook5.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F5247151742769F00157533 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5F5247171742769F00157533 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5F5247191742769F00157533 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		5F52471D174276A000157533 /* Cookbook-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cookbook-Info.plist"; sourceTree = "<group>"; };
+		5F52471D174276A000157533 /* Cookbook5.0-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cookbook5.0-Info.plist"; sourceTree = "<group>"; };
 		5F52471F174276A000157533 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5F524721174276A000157533 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5F524723174276A000157533 /* Cookbook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cookbook-Prefix.pch"; sourceTree = "<group>"; };
+		5F524723174276A000157533 /* Cookbook5.0-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cookbook5.0-Prefix.pch"; sourceTree = "<group>"; };
 		5F524724174276A000157533 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5F524725174276A000157533 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5F524727174276A000157533 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		5F524729174276A000157533 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		5F52472B174276A000157533 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		5F9EDD77174466130093A141 /* UIDatePickerDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UIDatePickerDemo.xcodeproj; path = UIDatePickerViewDemo/UIDatePickerDemo.xcodeproj; sourceTree = "<group>"; };
+		5F9EDDAF174473DC0093A141 /* UISliderDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UISliderDemo.xcodeproj; path = UISliderDemo/UISliderDemo.xcodeproj; sourceTree = "<group>"; };
 		5FA3470F1743CB3400B22AE8 /* Creating and using switches with UISwitch.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Creating and using switches with UISwitch.xcodeproj"; path = "Creating and using switches with UISwitch/Creating and using switches with UISwitch.xcodeproj"; sourceTree = "<group>"; };
 		5FA347451743D17800B22AE8 /* UIPickerViewDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UIPickerViewDemo.xcodeproj; path = UIPickerViewDemo/UIPickerViewDemo.xcodeproj; sourceTree = "<group>"; };
 		5FA3D9E317433AA600DE76A4 /* UIAlertViewDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UIAlertViewDemo.xcodeproj; path = UIAlertViewDemo/UIAlertViewDemo.xcodeproj; sourceTree = "<group>"; };
@@ -88,7 +103,7 @@
 		5F5247131742769F00157533 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5F5247121742769F00157533 /* Cookbook.app */,
+				5F5247121742769F00157533 /* Cookbook5.0.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,15 +132,31 @@
 		5F52471C174276A000157533 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5F52471D174276A000157533 /* Cookbook-Info.plist */,
+				5F52471D174276A000157533 /* Cookbook5.0-Info.plist */,
 				5F52471E174276A000157533 /* InfoPlist.strings */,
 				5F524721174276A000157533 /* main.m */,
-				5F524723174276A000157533 /* Cookbook-Prefix.pch */,
+				5F524723174276A000157533 /* Cookbook5.0-Prefix.pch */,
 				5F524727174276A000157533 /* Default.png */,
 				5F524729174276A000157533 /* Default@2x.png */,
 				5F52472B174276A000157533 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5F9EDDB0174473DC0093A141 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F9EDDB4174473DD0093A141 /* UISliderDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F9EDDC41744C4650093A141 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F9EDDCA1744C4650093A141 /* UIDatePickerDemo.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		5FA347101743CB3400B22AE8 /* Products */ = {
@@ -151,6 +182,7 @@
 				5FA3470F1743CB3400B22AE8 /* Creating and using switches with UISwitch.xcodeproj */,
 				5FA347451743D17800B22AE8 /* UIPickerViewDemo.xcodeproj */,
 				5F9EDD77174466130093A141 /* UIDatePickerDemo.xcodeproj */,
+				5F9EDDAF174473DC0093A141 /* UISliderDemo.xcodeproj */,
 			);
 			name = "控制器与视图";
 			sourceTree = "<group>";
@@ -166,9 +198,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5F5247111742769F00157533 /* Cookbook */ = {
+		5F5247111742769F00157533 /* Cookbook5.0 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5F52472F174276A000157533 /* Build configuration list for PBXNativeTarget "Cookbook" */;
+			buildConfigurationList = 5F52472F174276A000157533 /* Build configuration list for PBXNativeTarget "Cookbook5.0" */;
 			buildPhases = (
 				5F52470E1742769F00157533 /* Sources */,
 				5F52470F1742769F00157533 /* Frameworks */,
@@ -178,9 +210,9 @@
 			);
 			dependencies = (
 			);
-			name = Cookbook;
+			name = Cookbook5.0;
 			productName = Cookbook;
-			productReference = 5F5247121742769F00157533 /* Cookbook.app */;
+			productReference = 5F5247121742769F00157533 /* Cookbook5.0.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -192,7 +224,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "陈 海涛";
 			};
-			buildConfigurationList = 5F52470D1742769F00157533 /* Build configuration list for PBXProject "Cookbook" */;
+			buildConfigurationList = 5F52470D1742769F00157533 /* Build configuration list for PBXProject "Cookbook5.0" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -212,18 +244,40 @@
 					ProjectRef = 5FA3D9E317433AA600DE76A4 /* UIAlertViewDemo.xcodeproj */;
 				},
 				{
+					ProductGroup = 5F9EDDC41744C4650093A141 /* Products */;
+					ProjectRef = 5F9EDD77174466130093A141 /* UIDatePickerDemo.xcodeproj */;
+				},
+				{
 					ProductGroup = 5FA347461743D17800B22AE8 /* Products */;
 					ProjectRef = 5FA347451743D17800B22AE8 /* UIPickerViewDemo.xcodeproj */;
+				},
+				{
+					ProductGroup = 5F9EDDB0174473DC0093A141 /* Products */;
+					ProjectRef = 5F9EDDAF174473DC0093A141 /* UISliderDemo.xcodeproj */;
 				},
 			);
 			projectRoot = "";
 			targets = (
-				5F5247111742769F00157533 /* Cookbook */,
+				5F5247111742769F00157533 /* Cookbook5.0 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		5F9EDDB4174473DD0093A141 /* UISliderDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = UISliderDemo.app;
+			remoteRef = 5F9EDDB3174473DD0093A141 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5F9EDDCA1744C4650093A141 /* UIDatePickerDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = UIDatePickerDemo.app;
+			remoteRef = 5F9EDDC91744C4650093A141 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		5FA347141743CB3500B22AE8 /* Creating and using switches with UISwitch.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
@@ -345,9 +399,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Cookbook/Cookbook-Prefix.pch";
-				INFOPLIST_FILE = "Cookbook/Cookbook-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Cookbook/Cookbook5.0-Prefix.pch";
+				INFOPLIST_FILE = "Cookbook/Cookbook5.0-Info.plist";
+				PRODUCT_NAME = Cookbook5.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -356,9 +410,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Cookbook/Cookbook-Prefix.pch";
-				INFOPLIST_FILE = "Cookbook/Cookbook-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Cookbook/Cookbook5.0-Prefix.pch";
+				INFOPLIST_FILE = "Cookbook/Cookbook5.0-Info.plist";
+				PRODUCT_NAME = Cookbook5.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -366,7 +420,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5F52470D1742769F00157533 /* Build configuration list for PBXProject "Cookbook" */ = {
+		5F52470D1742769F00157533 /* Build configuration list for PBXProject "Cookbook5.0" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5F52472D174276A000157533 /* Debug */,
@@ -375,7 +429,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5F52472F174276A000157533 /* Build configuration list for PBXNativeTarget "Cookbook" */ = {
+		5F52472F174276A000157533 /* Build configuration list for PBXNativeTarget "Cookbook5.0" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5F524730174276A000157533 /* Debug */,
