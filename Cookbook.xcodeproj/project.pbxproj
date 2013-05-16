@@ -56,6 +56,7 @@
 		5F524727174276A000157533 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		5F524729174276A000157533 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		5F52472B174276A000157533 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5F9EDD77174466130093A141 /* UIDatePickerDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UIDatePickerDemo.xcodeproj; path = UIDatePickerViewDemo/UIDatePickerDemo.xcodeproj; sourceTree = "<group>"; };
 		5FA3470F1743CB3400B22AE8 /* Creating and using switches with UISwitch.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Creating and using switches with UISwitch.xcodeproj"; path = "Creating and using switches with UISwitch/Creating and using switches with UISwitch.xcodeproj"; sourceTree = "<group>"; };
 		5FA347451743D17800B22AE8 /* UIPickerViewDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UIPickerViewDemo.xcodeproj; path = UIPickerViewDemo/UIPickerViewDemo.xcodeproj; sourceTree = "<group>"; };
 		5FA3D9E317433AA600DE76A4 /* UIAlertViewDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UIAlertViewDemo.xcodeproj; path = UIAlertViewDemo/UIAlertViewDemo.xcodeproj; sourceTree = "<group>"; };
@@ -149,6 +150,7 @@
 				5FA3D9E317433AA600DE76A4 /* UIAlertViewDemo.xcodeproj */,
 				5FA3470F1743CB3400B22AE8 /* Creating and using switches with UISwitch.xcodeproj */,
 				5FA347451743D17800B22AE8 /* UIPickerViewDemo.xcodeproj */,
+				5F9EDD77174466130093A141 /* UIDatePickerDemo.xcodeproj */,
 			);
 			name = "控制器与视图";
 			sourceTree = "<group>";
