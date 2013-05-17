@@ -61,6 +61,13 @@
 			remoteGlobalIDString = 5FA3D9BD17433AA600DE76A4;
 			remoteInfo = UIAlertViewDemo;
 		};
+		5FA6015817460DA8008EB098 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FA6014E17460DA7008EB098 /* UIVIewControllerDemo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5FA6012E17460DA7008EB098;
+			remoteInfo = UIVIewControllerDemo;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -83,6 +90,7 @@
 		5FA3470F1743CB3400B22AE8 /* Creating and using switches with UISwitch.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Creating and using switches with UISwitch.xcodeproj"; path = "Creating and using switches with UISwitch/Creating and using switches with UISwitch.xcodeproj"; sourceTree = "<group>"; };
 		5FA347451743D17800B22AE8 /* UIPickerViewDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UIPickerViewDemo.xcodeproj; path = UIPickerViewDemo/UIPickerViewDemo.xcodeproj; sourceTree = "<group>"; };
 		5FA3D9E317433AA600DE76A4 /* UIAlertViewDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UIAlertViewDemo.xcodeproj; path = UIAlertViewDemo/UIAlertViewDemo.xcodeproj; sourceTree = "<group>"; };
+		5FA6014E17460DA7008EB098 /* UIVIewControllerDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UIVIewControllerDemo.xcodeproj; path = UIVIewControllerDemo/UIVIewControllerDemo.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +208,7 @@
 				5F9EDD77174466130093A141 /* UIDatePickerDemo.xcodeproj */,
 				5F9EDDAF174473DC0093A141 /* UISliderDemo.xcodeproj */,
 				5F9EDE1B1744CCB00093A141 /* UISegmentControlDemo.xcodeproj */,
+				5FA6014E17460DA7008EB098 /* UIVIewControllerDemo.xcodeproj */,
 			);
 			name = "控制器与视图";
 			sourceTree = "<group>";
@@ -208,6 +217,14 @@
 			isa = PBXGroup;
 			children = (
 				5FA3D9E817433AA700DE76A4 /* UIAlertViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FA6014F17460DA7008EB098 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FA6015917460DA8008EB098 /* UIVIewControllerDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -276,6 +293,10 @@
 					ProductGroup = 5F9EDDB0174473DC0093A141 /* Products */;
 					ProjectRef = 5F9EDDAF174473DC0093A141 /* UISliderDemo.xcodeproj */;
 				},
+				{
+					ProductGroup = 5FA6014F17460DA7008EB098 /* Products */;
+					ProjectRef = 5FA6014E17460DA7008EB098 /* UIVIewControllerDemo.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -325,6 +346,13 @@
 			fileType = wrapper.application;
 			path = UIAlertViewDemo.app;
 			remoteRef = 5FA3D9E717433AA700DE76A4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5FA6015917460DA8008EB098 /* UIVIewControllerDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = UIVIewControllerDemo.app;
+			remoteRef = 5FA6015817460DA8008EB098 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
