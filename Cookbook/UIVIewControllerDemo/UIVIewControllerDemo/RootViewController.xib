@@ -30,7 +30,7 @@
 				<string key="IBProxiedObjectIdentifier">IBFirstResponder</string>
 				<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 			</object>
-			<object class="IBUIView" id="998058559">
+			<object class="IBUIView" id="315698179">
 				<reference key="NSNextResponder"/>
 				<int key="NSvFlags">292</int>
 				<string key="NSFrameSize">{320, 568}</string>
@@ -70,7 +70,7 @@
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">view</string>
 						<reference key="source" ref="841351856"/>
-						<reference key="destination" ref="998058559"/>
+						<reference key="destination" ref="315698179"/>
 					</object>
 					<int key="connectionID">15</int>
 				</object>
@@ -96,7 +96,7 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">14</int>
-						<reference key="object" ref="998058559"/>
+						<reference key="object" ref="315698179"/>
 						<reference key="parent" ref="0"/>
 					</object>
 				</array>
