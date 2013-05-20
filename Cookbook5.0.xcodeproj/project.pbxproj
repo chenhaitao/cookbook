@@ -47,6 +47,13 @@
 			remoteGlobalIDString = 5FA2A5F61749CD4E0078FDA6;
 			remoteInfo = CustomImageOnNavigationbar;
 		};
+		5FA2A64E1749D3C70078FDA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FA2A64A1749D3C60078FDA6 /* CustomNavigationItemDemo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5FA2A62A1749D3C60078FDA6;
+			remoteInfo = CustomNavigationItemDemo;
+		};
 		5FA347131743CB3500B22AE8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5FA3470F1743CB3400B22AE8 /* Creating and using switches with UISwitch.xcodeproj */;
@@ -96,6 +103,7 @@
 		5F9EDE1B1744CCB00093A141 /* UISegmentControlDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UISegmentControlDemo.xcodeproj; path = UISegmentControlDemo/UISegmentControlDemo.xcodeproj; sourceTree = "<group>"; };
 		5FA2A5DA1749C4250078FDA6 /* UINavigationControllerDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UINavigationControllerDemo.xcodeproj; path = UINavigationController/UINavigationControllerDemo.xcodeproj; sourceTree = "<group>"; };
 		5FA2A6161749CD4E0078FDA6 /* CustomImageOnNavigationbar.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CustomImageOnNavigationbar.xcodeproj; path = CustomImageOnNavigationbar/CustomImageOnNavigationbar.xcodeproj; sourceTree = "<group>"; };
+		5FA2A64A1749D3C60078FDA6 /* CustomNavigationItemDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CustomNavigationItemDemo.xcodeproj; path = CustomNavigationItemDemo/CustomNavigationItemDemo.xcodeproj; sourceTree = "<group>"; };
 		5FA3470F1743CB3400B22AE8 /* Creating and using switches with UISwitch.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Creating and using switches with UISwitch.xcodeproj"; path = "Creating and using switches with UISwitch/Creating and using switches with UISwitch.xcodeproj"; sourceTree = "<group>"; };
 		5FA347451743D17800B22AE8 /* UIPickerViewDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UIPickerViewDemo.xcodeproj; path = UIPickerViewDemo/UIPickerViewDemo.xcodeproj; sourceTree = "<group>"; };
 		5FA3D9E317433AA600DE76A4 /* UIAlertViewDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UIAlertViewDemo.xcodeproj; path = UIAlertViewDemo/UIAlertViewDemo.xcodeproj; sourceTree = "<group>"; };
@@ -200,6 +208,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		5FA2A64B1749D3C60078FDA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FA2A64F1749D3C70078FDA6 /* CustomNavigationItemDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		5FA347101743CB3400B22AE8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -228,6 +244,7 @@
 				5FA6014E17460DA7008EB098 /* UIVIewControllerDemo.xcodeproj */,
 				5FA2A5DA1749C4250078FDA6 /* UINavigationControllerDemo.xcodeproj */,
 				5FA2A6161749CD4E0078FDA6 /* CustomImageOnNavigationbar.xcodeproj */,
+				5FA2A64A1749D3C60078FDA6 /* CustomNavigationItemDemo.xcodeproj */,
 			);
 			name = "控制器与视图";
 			sourceTree = "<group>";
@@ -297,6 +314,10 @@
 					ProjectRef = 5FA2A6161749CD4E0078FDA6 /* CustomImageOnNavigationbar.xcodeproj */;
 				},
 				{
+					ProductGroup = 5FA2A64B1749D3C60078FDA6 /* Products */;
+					ProjectRef = 5FA2A64A1749D3C60078FDA6 /* CustomNavigationItemDemo.xcodeproj */;
+				},
+				{
 					ProductGroup = 5FA3D9E417433AA600DE76A4 /* Products */;
 					ProjectRef = 5FA3D9E317433AA600DE76A4 /* UIAlertViewDemo.xcodeproj */;
 				},
@@ -355,6 +376,13 @@
 			fileType = wrapper.application;
 			path = CustomImageOnNavigationbar.app;
 			remoteRef = 5FA2A61A1749CD4F0078FDA6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5FA2A64F1749D3C70078FDA6 /* CustomNavigationItemDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = CustomNavigationItemDemo.app;
+			remoteRef = 5FA2A64E1749D3C70078FDA6 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		5FA347141743CB3500B22AE8 /* Creating and using switches with UISwitch.app */ = {
