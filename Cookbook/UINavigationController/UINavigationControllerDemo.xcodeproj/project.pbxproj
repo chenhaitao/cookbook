@@ -21,14 +21,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5FA2A5BA1749C4250078FDA6 /* UINavigationController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UINavigationController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FA2A5BA1749C4250078FDA6 /* UINavigationControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UINavigationControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FA2A5BD1749C4250078FDA6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5FA2A5BF1749C4250078FDA6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5FA2A5C11749C4250078FDA6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		5FA2A5C51749C4250078FDA6 /* UINavigationController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UINavigationController-Info.plist"; sourceTree = "<group>"; };
+		5FA2A5C51749C4250078FDA6 /* UINavigationControllerDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UINavigationControllerDemo-Info.plist"; sourceTree = "<group>"; };
 		5FA2A5C71749C4250078FDA6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5FA2A5C91749C4250078FDA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5FA2A5CB1749C4250078FDA6 /* UINavigationController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController-Prefix.pch"; sourceTree = "<group>"; };
+		5FA2A5CB1749C4250078FDA6 /* UINavigationControllerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationControllerDemo-Prefix.pch"; sourceTree = "<group>"; };
 		5FA2A5CC1749C4250078FDA6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5FA2A5CD1749C4250078FDA6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5FA2A5CF1749C4250078FDA6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -66,7 +66,7 @@
 		5FA2A5BB1749C4250078FDA6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5FA2A5BA1749C4250078FDA6 /* UINavigationController.app */,
+				5FA2A5BA1749C4250078FDA6 /* UINavigationControllerDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,10 +98,10 @@
 		5FA2A5C41749C4250078FDA6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5FA2A5C51749C4250078FDA6 /* UINavigationController-Info.plist */,
+				5FA2A5C51749C4250078FDA6 /* UINavigationControllerDemo-Info.plist */,
 				5FA2A5C61749C4250078FDA6 /* InfoPlist.strings */,
 				5FA2A5C91749C4250078FDA6 /* main.m */,
-				5FA2A5CB1749C4250078FDA6 /* UINavigationController-Prefix.pch */,
+				5FA2A5CB1749C4250078FDA6 /* UINavigationControllerDemo-Prefix.pch */,
 				5FA2A5CF1749C4250078FDA6 /* Default.png */,
 				5FA2A5D11749C4250078FDA6 /* Default@2x.png */,
 				5FA2A5D31749C4250078FDA6 /* Default-568h@2x.png */,
@@ -112,9 +112,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5FA2A5B91749C4250078FDA6 /* UINavigationController */ = {
+		5FA2A5B91749C4250078FDA6 /* UINavigationControllerDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5FA2A5D71749C4250078FDA6 /* Build configuration list for PBXNativeTarget "UINavigationController" */;
+			buildConfigurationList = 5FA2A5D71749C4250078FDA6 /* Build configuration list for PBXNativeTarget "UINavigationControllerDemo" */;
 			buildPhases = (
 				5FA2A5B61749C4250078FDA6 /* Sources */,
 				5FA2A5B71749C4250078FDA6 /* Frameworks */,
@@ -124,9 +124,9 @@
 			);
 			dependencies = (
 			);
-			name = UINavigationController;
+			name = UINavigationControllerDemo;
 			productName = UINavigationController;
-			productReference = 5FA2A5BA1749C4250078FDA6 /* UINavigationController.app */;
+			productReference = 5FA2A5BA1749C4250078FDA6 /* UINavigationControllerDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -138,7 +138,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "陈 海涛";
 			};
-			buildConfigurationList = 5FA2A5B51749C4250078FDA6 /* Build configuration list for PBXProject "UINavigationController" */;
+			buildConfigurationList = 5FA2A5B51749C4250078FDA6 /* Build configuration list for PBXProject "UINavigationControllerDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -150,7 +150,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5FA2A5B91749C4250078FDA6 /* UINavigationController */,
+				5FA2A5B91749C4250078FDA6 /* UINavigationControllerDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -255,9 +255,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "UINavigationController/UINavigationController-Prefix.pch";
-				INFOPLIST_FILE = "UINavigationController/UINavigationController-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "UINavigationController/UINavigationControllerDemo-Prefix.pch";
+				INFOPLIST_FILE = "UINavigationController/UINavigationControllerDemo-Info.plist";
+				PRODUCT_NAME = UINavigationControllerDemo;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -266,9 +266,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "UINavigationController/UINavigationController-Prefix.pch";
-				INFOPLIST_FILE = "UINavigationController/UINavigationController-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "UINavigationController/UINavigationControllerDemo-Prefix.pch";
+				INFOPLIST_FILE = "UINavigationController/UINavigationControllerDemo-Info.plist";
+				PRODUCT_NAME = UINavigationControllerDemo;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -276,7 +276,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5FA2A5B51749C4250078FDA6 /* Build configuration list for PBXProject "UINavigationController" */ = {
+		5FA2A5B51749C4250078FDA6 /* Build configuration list for PBXProject "UINavigationControllerDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5FA2A5D51749C4250078FDA6 /* Debug */,
@@ -285,7 +285,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5FA2A5D71749C4250078FDA6 /* Build configuration list for PBXNativeTarget "UINavigationController" */ = {
+		5FA2A5D71749C4250078FDA6 /* Build configuration list for PBXNativeTarget "UINavigationControllerDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5FA2A5D81749C4250078FDA6 /* Debug */,
