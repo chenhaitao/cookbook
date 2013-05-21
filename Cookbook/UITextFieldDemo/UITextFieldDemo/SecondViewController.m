@@ -24,6 +24,14 @@
     self.myTextField.contentVerticalAlignment = UIControlContentVerticalAlignmentCenter;
     self.myTextField.textAlignment = NSTextAlignmentCenter;
     self.myTextField.placeholder = @"Enter text here ....";
+    
+    self.myTextField.keyboardType = UIKeyboardTypeNumberPad;
+   
+    UITapGestureRecognizer *tapGestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(closeKeyboard:)];
+    [self.view addGestureRecognizer:tapGestureRecognizer];
+    
+    [self.myTextField addTarget:self action:@selector(textValueChanged:) forControlEvents:UIControlEventEditingChanged];
+    
     [self.view addSubview:self.myTextField];
     
     
@@ -41,6 +49,20 @@
         UITextFieldViewModeUnlessEditing,//不编辑的时候出现
         UITextFieldViewModeAlways        //总是出现
     };*/
+}
+
+-(void)closeKeyboard:(UITapGestureRecognizer *)sender
+{
+    
+    [self.myTextField resignFirstResponder];
+    
+}
+
+-(void)textValueChanged:(id)sender
+{
+    if ([sender isEqual:self.myTextField]) {
+        NSLog(@"text value changed");
+    }
 }
 
 - (void)didReceiveMemoryWarning

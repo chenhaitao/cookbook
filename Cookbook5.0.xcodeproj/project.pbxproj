@@ -47,6 +47,13 @@
 			remoteGlobalIDString = 5FA2A5BA1749C4250078FDA6;
 			remoteInfo = UINavigationControllerDemo;
 		};
+		5FA0BC1E174B165800481A03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FA0BC1A174B165700481A03 /* UITextViewDemo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5FA0BBF4174B165700481A03;
+			remoteInfo = UITextViewDemo;
+		};
 		5FA2A61A1749CD4F0078FDA6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5FA2A6161749CD4E0078FDA6 /* CustomImageOnNavigationbar.xcodeproj */;
@@ -129,6 +136,7 @@
 		5F9EDD77174466130093A141 /* UIDatePickerDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UIDatePickerDemo.xcodeproj; path = UIDatePickerViewDemo/UIDatePickerDemo.xcodeproj; sourceTree = "<group>"; };
 		5F9EDDAF174473DC0093A141 /* UISliderDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UISliderDemo.xcodeproj; path = UISliderDemo/UISliderDemo.xcodeproj; sourceTree = "<group>"; };
 		5F9EDE1B1744CCB00093A141 /* UISegmentControlDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UISegmentControlDemo.xcodeproj; path = UISegmentControlDemo/UISegmentControlDemo.xcodeproj; sourceTree = "<group>"; };
+		5FA0BC1A174B165700481A03 /* UITextViewDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UITextViewDemo.xcodeproj; path = UITextViewDemo/UITextViewDemo.xcodeproj; sourceTree = "<group>"; };
 		5FA2A5DA1749C4250078FDA6 /* UINavigationControllerDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UINavigationControllerDemo.xcodeproj; path = UINavigationController/UINavigationControllerDemo.xcodeproj; sourceTree = "<group>"; };
 		5FA2A6161749CD4E0078FDA6 /* CustomImageOnNavigationbar.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CustomImageOnNavigationbar.xcodeproj; path = CustomImageOnNavigationbar/CustomImageOnNavigationbar.xcodeproj; sourceTree = "<group>"; };
 		5FA2A64A1749D3C60078FDA6 /* CustomNavigationItemDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CustomNavigationItemDemo.xcodeproj; path = CustomNavigationItemDemo/CustomNavigationItemDemo.xcodeproj; sourceTree = "<group>"; };
@@ -240,6 +248,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		5FA0BC1B174B165700481A03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FA0BC1F174B165800481A03 /* UITextViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		5FA2A6171749CD4E0078FDA6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -269,6 +285,7 @@
 			children = (
 				5FA2A6CE174A16AA0078FDA6 /* UILabelDemo.xcodeproj */,
 				5FA2A703174A1B9E0078FDA6 /* UITextFieldDemo.xcodeproj */,
+				5FA0BC1A174B165700481A03 /* UITextViewDemo.xcodeproj */,
 			);
 			name = "控制器与视图(下)";
 			sourceTree = "<group>";
@@ -428,6 +445,10 @@
 					ProjectRef = 5FA2A703174A1B9E0078FDA6 /* UITextFieldDemo.xcodeproj */;
 				},
 				{
+					ProductGroup = 5FA0BC1B174B165700481A03 /* Products */;
+					ProjectRef = 5FA0BC1A174B165700481A03 /* UITextViewDemo.xcodeproj */;
+				},
+				{
 					ProductGroup = 5FA6014F17460DA7008EB098 /* Products */;
 					ProjectRef = 5FA6014E17460DA7008EB098 /* UIVIewControllerDemo.xcodeproj */;
 				},
@@ -466,6 +487,13 @@
 			fileType = wrapper.application;
 			path = UINavigationControllerDemo.app;
 			remoteRef = 5FA0BBE0174AFEC400481A03 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5FA0BC1F174B165800481A03 /* UITextViewDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = UITextViewDemo.app;
+			remoteRef = 5FA0BC1E174B165800481A03 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		5FA2A61B1749CD4F0078FDA6 /* CustomImageOnNavigationbar.app */ = {
