@@ -40,6 +40,13 @@
 			remoteGlobalIDString = 5F9EDDF51744CCB00093A141;
 			remoteInfo = UISegmentControlDemo;
 		};
+		5FA0BBE0174AFEC400481A03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FA2A5DA1749C4250078FDA6 /* UINavigationControllerDemo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5FA2A5BA1749C4250078FDA6;
+			remoteInfo = UINavigationControllerDemo;
+		};
 		5FA2A61A1749CD4F0078FDA6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5FA2A6161749CD4E0078FDA6 /* CustomImageOnNavigationbar.xcodeproj */;
@@ -67,6 +74,13 @@
 			proxyType = 2;
 			remoteGlobalIDString = 5FA2A6A8174A16AA0078FDA6;
 			remoteInfo = UILabelDemo;
+		};
+		5FA2A707174A1B9F0078FDA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FA2A703174A1B9E0078FDA6 /* UITextFieldDemo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5FA2A6DD174A1B9E0078FDA6;
+			remoteInfo = UITextFieldDemo;
 		};
 		5FA347131743CB3500B22AE8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -120,6 +134,7 @@
 		5FA2A64A1749D3C60078FDA6 /* CustomNavigationItemDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CustomNavigationItemDemo.xcodeproj; path = CustomNavigationItemDemo/CustomNavigationItemDemo.xcodeproj; sourceTree = "<group>"; };
 		5FA2A68A1749E0790078FDA6 /* UITabBarDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UITabBarDemo.xcodeproj; path = UITabBarDemo/UITabBarDemo.xcodeproj; sourceTree = "<group>"; };
 		5FA2A6CE174A16AA0078FDA6 /* UILabelDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UILabelDemo.xcodeproj; path = UILabelDemo/UILabelDemo.xcodeproj; sourceTree = "<group>"; };
+		5FA2A703174A1B9E0078FDA6 /* UITextFieldDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UITextFieldDemo.xcodeproj; path = UITextFieldDemo/UITextFieldDemo.xcodeproj; sourceTree = "<group>"; };
 		5FA3470F1743CB3400B22AE8 /* Creating and using switches with UISwitch.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Creating and using switches with UISwitch.xcodeproj"; path = "Creating and using switches with UISwitch/Creating and using switches with UISwitch.xcodeproj"; sourceTree = "<group>"; };
 		5FA347451743D17800B22AE8 /* UIPickerViewDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UIPickerViewDemo.xcodeproj; path = UIPickerViewDemo/UIPickerViewDemo.xcodeproj; sourceTree = "<group>"; };
 		5FA3D9E317433AA600DE76A4 /* UIAlertViewDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UIAlertViewDemo.xcodeproj; path = UIAlertViewDemo/UIAlertViewDemo.xcodeproj; sourceTree = "<group>"; };
@@ -217,6 +232,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		5FA0BBD7174AFEC400481A03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FA0BBE1174AFEC400481A03 /* UINavigationControllerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		5FA2A6171749CD4E0078FDA6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -245,6 +268,7 @@
 			isa = PBXGroup;
 			children = (
 				5FA2A6CE174A16AA0078FDA6 /* UILabelDemo.xcodeproj */,
+				5FA2A703174A1B9E0078FDA6 /* UITextFieldDemo.xcodeproj */,
 			);
 			name = "控制器与视图(下)";
 			sourceTree = "<group>";
@@ -253,6 +277,14 @@
 			isa = PBXGroup;
 			children = (
 				5FA2A6D3174A16AB0078FDA6 /* UILabelDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FA2A704174A1B9E0078FDA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FA2A708174A1B9F0078FDA6 /* UITextFieldDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -372,6 +404,10 @@
 					ProjectRef = 5FA2A6CE174A16AA0078FDA6 /* UILabelDemo.xcodeproj */;
 				},
 				{
+					ProductGroup = 5FA0BBD7174AFEC400481A03 /* Products */;
+					ProjectRef = 5FA2A5DA1749C4250078FDA6 /* UINavigationControllerDemo.xcodeproj */;
+				},
+				{
 					ProductGroup = 5FA347461743D17800B22AE8 /* Products */;
 					ProjectRef = 5FA347451743D17800B22AE8 /* UIPickerViewDemo.xcodeproj */;
 				},
@@ -386,6 +422,10 @@
 				{
 					ProductGroup = 5FA2A68B1749E0790078FDA6 /* Products */;
 					ProjectRef = 5FA2A68A1749E0790078FDA6 /* UITabBarDemo.xcodeproj */;
+				},
+				{
+					ProductGroup = 5FA2A704174A1B9E0078FDA6 /* Products */;
+					ProjectRef = 5FA2A703174A1B9E0078FDA6 /* UITextFieldDemo.xcodeproj */;
 				},
 				{
 					ProductGroup = 5FA6014F17460DA7008EB098 /* Products */;
@@ -421,6 +461,13 @@
 			remoteRef = 5F9EDE1F1744CCB10093A141 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		5FA0BBE1174AFEC400481A03 /* UINavigationControllerDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = UINavigationControllerDemo.app;
+			remoteRef = 5FA0BBE0174AFEC400481A03 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		5FA2A61B1749CD4F0078FDA6 /* CustomImageOnNavigationbar.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
@@ -447,6 +494,13 @@
 			fileType = wrapper.application;
 			path = UILabelDemo.app;
 			remoteRef = 5FA2A6D2174A16AB0078FDA6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5FA2A708174A1B9F0078FDA6 /* UITextFieldDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = UITextFieldDemo.app;
+			remoteRef = 5FA2A707174A1B9F0078FDA6 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		5FA347141743CB3500B22AE8 /* Creating and using switches with UISwitch.app */ = {
