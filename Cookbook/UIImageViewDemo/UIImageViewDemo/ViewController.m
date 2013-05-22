@@ -40,7 +40,7 @@
      UIViewContentModeBottomRight,
      };
      */
-    self.myImageView.contentMode = UIViewContentModeScaleAspectFill;
+    self.myImageView.contentMode = UIViewContentModeScaleAspectFit;
     self.myImageView.center = self.view.center;
     [self.view addSubview:self.myImageView];
 }
