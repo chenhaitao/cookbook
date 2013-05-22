@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface NextViewController : UIViewController
+@property (nonatomic,strong) UIScrollView *myScrollView;
 
 @end
