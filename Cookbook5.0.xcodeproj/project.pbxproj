@@ -215,6 +215,13 @@
 			remoteGlobalIDString = 5FA4F910174DF5220087D8F6;
 			remoteInfo = MovingSectionAndCell;
 		};
+		5FA4F970174E01630087D8F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FA4F96C174E01620087D8F6 /* SegueDemo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5FA4F946174E01610087D8F6;
+			remoteInfo = SegueDemo;
+		};
 		5FA6015817460DA8008EB098 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5FA6014E17460DA7008EB098 /* UIVIewControllerDemo.xcodeproj */;
@@ -266,6 +273,7 @@
 		5FA4F8C9174DCAA20087D8F6 /* AddHeaderAndFooterForTableViewDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AddHeaderAndFooterForTableViewDemo.xcodeproj; path = AddHeaderAndFooterForTableViewDemo/AddHeaderAndFooterForTableViewDemo.xcodeproj; sourceTree = "<group>"; };
 		5FA4F901174DF0B30087D8F6 /* MenuForTableViewDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MenuForTableViewDemo.xcodeproj; path = MenuForTableViewDemo/MenuForTableViewDemo.xcodeproj; sourceTree = "<group>"; };
 		5FA4F936174DF5220087D8F6 /* MovingSectionAndCell.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MovingSectionAndCell.xcodeproj; path = MovingSectionAndCell/MovingSectionAndCell.xcodeproj; sourceTree = "<group>"; };
+		5FA4F96C174E01620087D8F6 /* SegueDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SegueDemo.xcodeproj; path = SegueDemo/SegueDemo.xcodeproj; sourceTree = "<group>"; };
 		5FA6014E17460DA7008EB098 /* UIVIewControllerDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UIVIewControllerDemo.xcodeproj; path = UIVIewControllerDemo/UIVIewControllerDemo.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -313,6 +321,8 @@
 		5F52471B1742769F00157533 /* Cookbook */ = {
 			isa = PBXGroup;
 			children = (
+				5FA4F990174E079B0087D8F6 /* 并发 */,
+				5FA4F93C174E01430087D8F6 /* 使用Storyboards */,
 				5FA4F7E3174DA63D0087D8F6 /* 创建和使用TableView */,
 				5FA2A69E174A16830078FDA6 /* 控制器与视图(下) */,
 				5FA3D9B317433A8400DE76A4 /* 控制器与视图(上) */,
@@ -611,6 +621,29 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		5FA4F93C174E01430087D8F6 /* 使用Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				5FA4F96C174E01620087D8F6 /* SegueDemo.xcodeproj */,
+			);
+			name = "使用Storyboards";
+			sourceTree = "<group>";
+		};
+		5FA4F96D174E01620087D8F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FA4F971174E01630087D8F6 /* SegueDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FA4F990174E079B0087D8F6 /* 并发 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "并发";
+			sourceTree = "<group>";
+		};
 		5FA6014F17460DA7008EB098 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -698,6 +731,10 @@
 				{
 					ProductGroup = 5FA4F937174DF5220087D8F6 /* Products */;
 					ProjectRef = 5FA4F936174DF5220087D8F6 /* MovingSectionAndCell.xcodeproj */;
+				},
+				{
+					ProductGroup = 5FA4F96D174E01620087D8F6 /* Products */;
+					ProjectRef = 5FA4F96C174E01620087D8F6 /* SegueDemo.xcodeproj */;
 				},
 				{
 					ProductGroup = 5FA3D9E417433AA600DE76A4 /* Products */;
@@ -978,6 +1015,13 @@
 			fileType = wrapper.application;
 			path = MovingSectionAndCell.app;
 			remoteRef = 5FA4F93A174DF5230087D8F6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5FA4F971174E01630087D8F6 /* SegueDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SegueDemo.app;
+			remoteRef = 5FA4F970174E01630087D8F6 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		5FA6015917460DA8008EB098 /* UIVIewControllerDemo.app */ = {
