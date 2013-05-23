@@ -18,6 +18,7 @@
 		5FA4F8BD174DCAA20087D8F6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FA4F8BC174DCAA20087D8F6 /* Default-568h@2x.png */; };
 		5FA4F8C0174DCAA20087D8F6 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FA4F8BE174DCAA20087D8F6 /* MainStoryboard.storyboard */; };
 		5FA4F8C3174DCAA20087D8F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA4F8C2174DCAA20087D8F6 /* ViewController.m */; };
+		5FA4F8D1174DE9130087D8F6 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA4F8D0174DE9130087D8F6 /* NextViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		5FA4F8BF174DCAA20087D8F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		5FA4F8C1174DCAA20087D8F6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5FA4F8C2174DCAA20087D8F6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5FA4F8CF174DE9130087D8F6 /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		5FA4F8D0174DE9130087D8F6 /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				5FA4F8C1174DCAA20087D8F6 /* ViewController.h */,
 				5FA4F8C2174DCAA20087D8F6 /* ViewController.m */,
 				5FA4F8AD174DCAA20087D8F6 /* Supporting Files */,
+				5FA4F8CF174DE9130087D8F6 /* NextViewController.h */,
+				5FA4F8D0174DE9130087D8F6 /* NextViewController.m */,
 			);
 			path = AddHeaderAndFooterForTableViewDemo;
 			sourceTree = "<group>";
@@ -176,6 +181,7 @@
 				5FA4F8B3174DCAA20087D8F6 /* main.m in Sources */,
 				5FA4F8B7174DCAA20087D8F6 /* AppDelegate.m in Sources */,
 				5FA4F8C3174DCAA20087D8F6 /* ViewController.m in Sources */,
+				5FA4F8D1174DE9130087D8F6 /* NextViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

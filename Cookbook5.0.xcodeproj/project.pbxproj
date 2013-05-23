@@ -201,6 +201,20 @@
 			remoteGlobalIDString = 5FA4F8A3174DCAA20087D8F6;
 			remoteInfo = AddHeaderAndFooterForTableViewDemo;
 		};
+		5FA4F905174DF0B40087D8F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FA4F901174DF0B30087D8F6 /* MenuForTableViewDemo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5FA4F8DB174DF0B30087D8F6;
+			remoteInfo = MenuForTableViewDemo;
+		};
+		5FA4F93A174DF5230087D8F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FA4F936174DF5220087D8F6 /* MovingSectionAndCell.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5FA4F910174DF5220087D8F6;
+			remoteInfo = MovingSectionAndCell;
+		};
 		5FA6015817460DA8008EB098 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5FA6014E17460DA7008EB098 /* UIVIewControllerDemo.xcodeproj */;
@@ -250,6 +264,8 @@
 		5FA4F85F174DB5BD0087D8F6 /* levelTableViewDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = levelTableViewDemo.xcodeproj; path = levelTableViewDemo/levelTableViewDemo.xcodeproj; sourceTree = "<group>"; };
 		5FA4F894174DBEF20087D8F6 /* DeleteTableViewCell.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DeleteTableViewCell.xcodeproj; path = DeleteTableViewCell/DeleteTableViewCell.xcodeproj; sourceTree = "<group>"; };
 		5FA4F8C9174DCAA20087D8F6 /* AddHeaderAndFooterForTableViewDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AddHeaderAndFooterForTableViewDemo.xcodeproj; path = AddHeaderAndFooterForTableViewDemo/AddHeaderAndFooterForTableViewDemo.xcodeproj; sourceTree = "<group>"; };
+		5FA4F901174DF0B30087D8F6 /* MenuForTableViewDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MenuForTableViewDemo.xcodeproj; path = MenuForTableViewDemo/MenuForTableViewDemo.xcodeproj; sourceTree = "<group>"; };
+		5FA4F936174DF5220087D8F6 /* MovingSectionAndCell.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MovingSectionAndCell.xcodeproj; path = MovingSectionAndCell/MovingSectionAndCell.xcodeproj; sourceTree = "<group>"; };
 		5FA6014E17460DA7008EB098 /* UIVIewControllerDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UIVIewControllerDemo.xcodeproj; path = UIVIewControllerDemo/UIVIewControllerDemo.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -541,6 +557,8 @@
 				5FA4F85F174DB5BD0087D8F6 /* levelTableViewDemo.xcodeproj */,
 				5FA4F894174DBEF20087D8F6 /* DeleteTableViewCell.xcodeproj */,
 				5FA4F8C9174DCAA20087D8F6 /* AddHeaderAndFooterForTableViewDemo.xcodeproj */,
+				5FA4F901174DF0B30087D8F6 /* MenuForTableViewDemo.xcodeproj */,
+				5FA4F936174DF5220087D8F6 /* MovingSectionAndCell.xcodeproj */,
 			);
 			name = "创建和使用TableView";
 			sourceTree = "<group>";
@@ -573,6 +591,22 @@
 			isa = PBXGroup;
 			children = (
 				5FA4F8CE174DCAA30087D8F6 /* AddHeaderAndFooterForTableViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FA4F902174DF0B30087D8F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FA4F906174DF0B40087D8F6 /* MenuForTableViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FA4F937174DF5220087D8F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FA4F93B174DF5230087D8F6 /* MovingSectionAndCell.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -656,6 +690,14 @@
 				{
 					ProductGroup = 5FA4F860174DB5BD0087D8F6 /* Products */;
 					ProjectRef = 5FA4F85F174DB5BD0087D8F6 /* levelTableViewDemo.xcodeproj */;
+				},
+				{
+					ProductGroup = 5FA4F902174DF0B30087D8F6 /* Products */;
+					ProjectRef = 5FA4F901174DF0B30087D8F6 /* MenuForTableViewDemo.xcodeproj */;
+				},
+				{
+					ProductGroup = 5FA4F937174DF5220087D8F6 /* Products */;
+					ProjectRef = 5FA4F936174DF5220087D8F6 /* MovingSectionAndCell.xcodeproj */;
 				},
 				{
 					ProductGroup = 5FA3D9E417433AA600DE76A4 /* Products */;
@@ -922,6 +964,20 @@
 			fileType = wrapper.application;
 			path = AddHeaderAndFooterForTableViewDemo.app;
 			remoteRef = 5FA4F8CD174DCAA30087D8F6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5FA4F906174DF0B40087D8F6 /* MenuForTableViewDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = MenuForTableViewDemo.app;
+			remoteRef = 5FA4F905174DF0B40087D8F6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5FA4F93B174DF5230087D8F6 /* MovingSectionAndCell.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = MovingSectionAndCell.app;
+			remoteRef = 5FA4F93A174DF5230087D8F6 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		5FA6015917460DA8008EB098 /* UIVIewControllerDemo.app */ = {
