@@ -7,17 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "BlockTest.h"
+
 
 int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
-        BlockTest *test = [BlockTest new];
-        [test  callIntToString];
-        [test callIntToString2];
-        [test doTheConversion];
-        [test doTheConversion2];
+       
     }
     return 0;
 }

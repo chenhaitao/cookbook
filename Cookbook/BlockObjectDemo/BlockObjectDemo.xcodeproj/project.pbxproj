@@ -10,7 +10,6 @@
 		5FA27736174F5EF6003AA9B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FA27735174F5EF6003AA9B7 /* Foundation.framework */; };
 		5FA27739174F5EF6003AA9B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA27738174F5EF6003AA9B7 /* main.m */; };
 		5FA2773D174F5EF6003AA9B7 /* BlockObjectDemo.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5FA2773C174F5EF6003AA9B7 /* BlockObjectDemo.1 */; };
-		5FA2774B174F6314003AA9B7 /* BlockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA2774A174F6314003AA9B7 /* BlockTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,8 +31,6 @@
 		5FA27738174F5EF6003AA9B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5FA2773B174F5EF6003AA9B7 /* BlockObjectDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlockObjectDemo-Prefix.pch"; sourceTree = "<group>"; };
 		5FA2773C174F5EF6003AA9B7 /* BlockObjectDemo.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = BlockObjectDemo.1; sourceTree = "<group>"; };
-		5FA27749174F6314003AA9B7 /* BlockTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockTest.h; sourceTree = "<group>"; };
-		5FA2774A174F6314003AA9B7 /* BlockTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +76,6 @@
 				5FA27738174F5EF6003AA9B7 /* main.m */,
 				5FA2773C174F5EF6003AA9B7 /* BlockObjectDemo.1 */,
 				5FA2773A174F5EF6003AA9B7 /* Supporting Files */,
-				5FA27749174F6314003AA9B7 /* BlockTest.h */,
-				5FA2774A174F6314003AA9B7 /* BlockTest.m */,
 			);
 			path = BlockObjectDemo;
 			sourceTree = "<group>";
@@ -145,7 +140,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FA27739174F5EF6003AA9B7 /* main.m in Sources */,
-				5FA2774B174F6314003AA9B7 /* BlockTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +242,7 @@
 				5FA27742174F5EF6003AA9B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
