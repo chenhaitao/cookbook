@@ -10,9 +10,24 @@
 
 @implementation AppDelegate
 
+static dispatch_once_t onceToken;
+void (^executedOnlyOnce)(void) = ^{
+    static NSUInteger numberOfEntries = 0;
+    numberOfEntries++;
+    NSLog(@"Executed %lu time ",(unsigned long)numberOfEntries);
+};
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
+    static dispatch_once_t onceToken;
+    
+    dispatch_async(queue, ^{
+        dispatch_once(&onceToken,executedOnlyOnce);
+        dispatch_once(&onceToken,executedOnlyOnce);
+        dispatch_once(&onceToken,executedOnlyOnce);
+    });
+    
     return YES;
 }
 							

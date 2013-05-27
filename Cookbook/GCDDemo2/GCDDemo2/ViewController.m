@@ -14,10 +14,45 @@
 
 @implementation ViewController
 
+-(void)reloadTableView
+{
+    NSLog(@"1");
+}
+-(void)reloadScrollView
+{
+    NSLog(@"2");
+}
+-(void)reloadBottomView
+{
+    NSLog(@"3");
+}
+
+-(void)reloadView
+{
+    dispatch_group_t taskGroup = dispatch_group_create();
+    dispatch_queue_t mainQueue = dispatch_get_main_queue();
+    dispatch_group_async(taskGroup, mainQueue, ^{
+        [self reloadTableView];
+    });
+    dispatch_group_async(taskGroup, mainQueue, ^{
+        [self reloadScrollView];
+    });
+    
+    dispatch_group_async(taskGroup, mainQueue, ^{
+        [self reloadBottomView];
+    });
+    
+    dispatch_group_notify(taskGroup, mainQueue, ^{
+        [[[UIAlertView alloc] initWithTitle:nil message:@"all task are finished" delegate:nil cancelButtonTitle:@"ok" otherButtonTitles:nil, nil] show];
+    });
+    
+  //  dispatch_release(taskGroup);
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	[self reloadView];
 }
 
 - (void)didReceiveMemoryWarning
