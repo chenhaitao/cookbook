@@ -19,6 +19,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		5F529C931752EFD6009E0BAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F529C8F1752EFD5009E0BAE /* blockObjectTestDemo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5F529C7E1752EFD5009E0BAE;
+			remoteInfo = blockObjectTestDemo;
+		};
+		5F529CB9175305FD009E0BAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F529CB5175305FC009E0BAE /* useBlockDemo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5F529CA4175305FC009E0BAE;
+			remoteInfo = useBlockDemo;
+		};
 		5F9D8CF1174C5BF50031C083 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5F9D8CE9174C5BF40031C083 /* UIButtonDemo.xcodeproj */;
@@ -116,6 +130,13 @@
 			proxyType = 2;
 			remoteGlobalIDString = 5FA0BBF4174B165700481A03;
 			remoteInfo = UITextViewDemo;
+		};
+		5FA27747174F5EF7003AA9B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FA27743174F5EF6003AA9B7 /* BlockObjectDemo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5FA27732174F5EF6003AA9B7;
+			remoteInfo = BlockObjectDemo;
 		};
 		5FA2A61A1749CD4F0078FDA6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -245,6 +266,8 @@
 		5F524727174276A000157533 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		5F524729174276A000157533 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		5F52472B174276A000157533 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5F529C8F1752EFD5009E0BAE /* blockObjectTestDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = blockObjectTestDemo.xcodeproj; path = blockObjectTestDemo/blockObjectTestDemo.xcodeproj; sourceTree = "<group>"; };
+		5F529CB5175305FC009E0BAE /* useBlockDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = useBlockDemo.xcodeproj; path = useBlockDemo/useBlockDemo.xcodeproj; sourceTree = "<group>"; };
 		5F9D8CE9174C5BF40031C083 /* UIButtonDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UIButtonDemo.xcodeproj; path = UIButtonDemo/UIButtonDemo.xcodeproj; sourceTree = "<group>"; };
 		5F9D8D35174C65A10031C083 /* UIImageViewDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UIImageViewDemo.xcodeproj; path = UIImageViewDemo/UIImageViewDemo.xcodeproj; sourceTree = "<group>"; };
 		5F9D8D6C174C6A930031C083 /* UIScrollViewDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UIScrollViewDemo.xcodeproj; path = UIScrollViewDemo/UIScrollViewDemo.xcodeproj; sourceTree = "<group>"; };
@@ -258,6 +281,7 @@
 		5F9EDDAF174473DC0093A141 /* UISliderDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UISliderDemo.xcodeproj; path = UISliderDemo/UISliderDemo.xcodeproj; sourceTree = "<group>"; };
 		5F9EDE1B1744CCB00093A141 /* UISegmentControlDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UISegmentControlDemo.xcodeproj; path = UISegmentControlDemo/UISegmentControlDemo.xcodeproj; sourceTree = "<group>"; };
 		5FA0BC1A174B165700481A03 /* UITextViewDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UITextViewDemo.xcodeproj; path = UITextViewDemo/UITextViewDemo.xcodeproj; sourceTree = "<group>"; };
+		5FA27743174F5EF6003AA9B7 /* BlockObjectDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BlockObjectDemo.xcodeproj; path = BlockObjectDemo/BlockObjectDemo.xcodeproj; sourceTree = "<group>"; };
 		5FA2A5DA1749C4250078FDA6 /* UINavigationControllerDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UINavigationControllerDemo.xcodeproj; path = UINavigationController/UINavigationControllerDemo.xcodeproj; sourceTree = "<group>"; };
 		5FA2A6161749CD4E0078FDA6 /* CustomImageOnNavigationbar.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CustomImageOnNavigationbar.xcodeproj; path = CustomImageOnNavigationbar/CustomImageOnNavigationbar.xcodeproj; sourceTree = "<group>"; };
 		5FA2A64A1749D3C60078FDA6 /* CustomNavigationItemDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CustomNavigationItemDemo.xcodeproj; path = CustomNavigationItemDemo/CustomNavigationItemDemo.xcodeproj; sourceTree = "<group>"; };
@@ -321,6 +345,8 @@
 		5F52471B1742769F00157533 /* Cookbook */ = {
 			isa = PBXGroup;
 			children = (
+				5F529C551752EFA5009E0BAE /* blockObject */,
+				5FA4F9AF174E0E7C0087D8F6 /* 定位与地图 */,
 				5FA4F990174E079B0087D8F6 /* 并发 */,
 				5FA4F93C174E01430087D8F6 /* 使用Storyboards */,
 				5FA4F7E3174DA63D0087D8F6 /* 创建和使用TableView */,
@@ -345,6 +371,31 @@
 				5F52472B174276A000157533 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5F529C551752EFA5009E0BAE /* blockObject */ = {
+			isa = PBXGroup;
+			children = (
+				5F529C8F1752EFD5009E0BAE /* blockObjectTestDemo.xcodeproj */,
+				5F529CB5175305FC009E0BAE /* useBlockDemo.xcodeproj */,
+			);
+			name = blockObject;
+			sourceTree = "<group>";
+		};
+		5F529C901752EFD5009E0BAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F529C941752EFD6009E0BAE /* blockObjectTestDemo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F529CB6175305FC009E0BAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F529CBA175305FD009E0BAE /* useBlockDemo */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		5F9D8CEA174C5BF40031C083 /* Products */ = {
@@ -455,6 +506,14 @@
 			isa = PBXGroup;
 			children = (
 				5FA0BC1F174B165800481A03 /* UITextViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FA27744174F5EF6003AA9B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FA27748174F5EF7003AA9B7 /* BlockObjectDemo */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -640,8 +699,16 @@
 		5FA4F990174E079B0087D8F6 /* 并发 */ = {
 			isa = PBXGroup;
 			children = (
+				5FA27743174F5EF6003AA9B7 /* BlockObjectDemo.xcodeproj */,
 			);
 			name = "并发";
+			sourceTree = "<group>";
+		};
+		5FA4F9AF174E0E7C0087D8F6 /* 定位与地图 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "定位与地图";
 			sourceTree = "<group>";
 		};
 		5FA6014F17460DA7008EB098 /* Products */ = {
@@ -695,6 +762,14 @@
 				{
 					ProductGroup = 5FA4F8CA174DCAA20087D8F6 /* Products */;
 					ProjectRef = 5FA4F8C9174DCAA20087D8F6 /* AddHeaderAndFooterForTableViewDemo.xcodeproj */;
+				},
+				{
+					ProductGroup = 5FA27744174F5EF6003AA9B7 /* Products */;
+					ProjectRef = 5FA27743174F5EF6003AA9B7 /* BlockObjectDemo.xcodeproj */;
+				},
+				{
+					ProductGroup = 5F529C901752EFD5009E0BAE /* Products */;
+					ProjectRef = 5F529C8F1752EFD5009E0BAE /* blockObjectTestDemo.xcodeproj */;
 				},
 				{
 					ProductGroup = 5FA347101743CB3400B22AE8 /* Products */;
@@ -812,6 +887,10 @@
 					ProductGroup = 5F9D8DAB174C774A0031C083 /* Products */;
 					ProjectRef = 5F9D8DAA174C774A0031C083 /* UIWebViewDemo.xcodeproj */;
 				},
+				{
+					ProductGroup = 5F529CB6175305FC009E0BAE /* Products */;
+					ProjectRef = 5F529CB5175305FC009E0BAE /* useBlockDemo.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -821,6 +900,20 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		5F529C941752EFD6009E0BAE /* blockObjectTestDemo */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = blockObjectTestDemo;
+			remoteRef = 5F529C931752EFD6009E0BAE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5F529CBA175305FD009E0BAE /* useBlockDemo */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = useBlockDemo;
+			remoteRef = 5F529CB9175305FD009E0BAE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		5F9D8CF2174C5BF50031C083 /* UIButtonDemo.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
@@ -917,6 +1010,13 @@
 			fileType = wrapper.application;
 			path = UITextViewDemo.app;
 			remoteRef = 5FA0BC1E174B165800481A03 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5FA27748174F5EF7003AA9B7 /* BlockObjectDemo */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = BlockObjectDemo;
+			remoteRef = 5FA27747174F5EF7003AA9B7 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		5FA2A61B1749CD4F0078FDA6 /* CustomImageOnNavigationbar.app */ = {
