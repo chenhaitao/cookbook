@@ -7,13 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Test1.h"
 
 
 int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
-       
+        [[Test1 new] doSomeThing];
+         [[Test1 new] doSomeThing2];
     }
     return 0;
 }

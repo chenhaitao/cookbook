@@ -33,6 +33,20 @@
 			remoteGlobalIDString = 5F529CA4175305FC009E0BAE;
 			remoteInfo = useBlockDemo;
 		};
+		5F529CF217533C39009E0BAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F529CEE17533C37009E0BAE /* GCDDeom1.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5F529CC817533C37009E0BAE;
+			remoteInfo = GCDDeom1;
+		};
+		5F529D2717534F36009E0BAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F529D2317534F35009E0BAE /* GCDDemo2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5F529CFD17534F35009E0BAE;
+			remoteInfo = GCDDemo2;
+		};
 		5F9D8CF1174C5BF50031C083 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5F9D8CE9174C5BF40031C083 /* UIButtonDemo.xcodeproj */;
@@ -268,6 +282,8 @@
 		5F52472B174276A000157533 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		5F529C8F1752EFD5009E0BAE /* blockObjectTestDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = blockObjectTestDemo.xcodeproj; path = blockObjectTestDemo/blockObjectTestDemo.xcodeproj; sourceTree = "<group>"; };
 		5F529CB5175305FC009E0BAE /* useBlockDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = useBlockDemo.xcodeproj; path = useBlockDemo/useBlockDemo.xcodeproj; sourceTree = "<group>"; };
+		5F529CEE17533C37009E0BAE /* GCDDeom1.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GCDDeom1.xcodeproj; path = GCDDeom1/GCDDeom1.xcodeproj; sourceTree = "<group>"; };
+		5F529D2317534F35009E0BAE /* GCDDemo2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GCDDemo2.xcodeproj; path = GCDDemo2/GCDDemo2.xcodeproj; sourceTree = "<group>"; };
 		5F9D8CE9174C5BF40031C083 /* UIButtonDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UIButtonDemo.xcodeproj; path = UIButtonDemo/UIButtonDemo.xcodeproj; sourceTree = "<group>"; };
 		5F9D8D35174C65A10031C083 /* UIImageViewDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UIImageViewDemo.xcodeproj; path = UIImageViewDemo/UIImageViewDemo.xcodeproj; sourceTree = "<group>"; };
 		5F9D8D6C174C6A930031C083 /* UIScrollViewDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UIScrollViewDemo.xcodeproj; path = UIScrollViewDemo/UIScrollViewDemo.xcodeproj; sourceTree = "<group>"; };
@@ -394,6 +410,22 @@
 			isa = PBXGroup;
 			children = (
 				5F529CBA175305FD009E0BAE /* useBlockDemo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F529CEF17533C37009E0BAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F529CF317533C39009E0BAE /* GCDDeom1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F529D2417534F35009E0BAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F529D2817534F36009E0BAE /* GCDDemo2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -700,6 +732,8 @@
 			isa = PBXGroup;
 			children = (
 				5FA27743174F5EF6003AA9B7 /* BlockObjectDemo.xcodeproj */,
+				5F529CEE17533C37009E0BAE /* GCDDeom1.xcodeproj */,
+				5F529D2317534F35009E0BAE /* GCDDemo2.xcodeproj */,
 			);
 			name = "并发";
 			sourceTree = "<group>";
@@ -786,6 +820,14 @@
 				{
 					ProductGroup = 5FA4F895174DBEF20087D8F6 /* Products */;
 					ProjectRef = 5FA4F894174DBEF20087D8F6 /* DeleteTableViewCell.xcodeproj */;
+				},
+				{
+					ProductGroup = 5F529D2417534F35009E0BAE /* Products */;
+					ProjectRef = 5F529D2317534F35009E0BAE /* GCDDemo2.xcodeproj */;
+				},
+				{
+					ProductGroup = 5F529CEF17533C37009E0BAE /* Products */;
+					ProjectRef = 5F529CEE17533C37009E0BAE /* GCDDeom1.xcodeproj */;
 				},
 				{
 					ProductGroup = 5FA4F82B174DA8D50087D8F6 /* Products */;
@@ -912,6 +954,20 @@
 			fileType = "compiled.mach-o.executable";
 			path = useBlockDemo;
 			remoteRef = 5F529CB9175305FD009E0BAE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5F529CF317533C39009E0BAE /* GCDDeom1.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = GCDDeom1.app;
+			remoteRef = 5F529CF217533C39009E0BAE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5F529D2817534F36009E0BAE /* GCDDemo2.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = GCDDemo2.app;
+			remoteRef = 5F529D2717534F36009E0BAE /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		5F9D8CF2174C5BF50031C083 /* UIButtonDemo.app */ = {

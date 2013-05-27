@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F529CBD1753303B009E0BAE /* Test1.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F529CBC1753303B009E0BAE /* Test1.m */; };
 		5FA27736174F5EF6003AA9B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FA27735174F5EF6003AA9B7 /* Foundation.framework */; };
 		5FA27739174F5EF6003AA9B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA27738174F5EF6003AA9B7 /* main.m */; };
 		5FA2773D174F5EF6003AA9B7 /* BlockObjectDemo.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5FA2773C174F5EF6003AA9B7 /* BlockObjectDemo.1 */; };
@@ -26,6 +27,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5F529CBB1753303B009E0BAE /* Test1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test1.h; sourceTree = "<group>"; };
+		5F529CBC1753303B009E0BAE /* Test1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test1.m; sourceTree = "<group>"; };
 		5FA27732174F5EF6003AA9B7 /* BlockObjectDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BlockObjectDemo; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FA27735174F5EF6003AA9B7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5FA27738174F5EF6003AA9B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -76,6 +79,8 @@
 				5FA27738174F5EF6003AA9B7 /* main.m */,
 				5FA2773C174F5EF6003AA9B7 /* BlockObjectDemo.1 */,
 				5FA2773A174F5EF6003AA9B7 /* Supporting Files */,
+				5F529CBB1753303B009E0BAE /* Test1.h */,
+				5F529CBC1753303B009E0BAE /* Test1.m */,
 			);
 			path = BlockObjectDemo;
 			sourceTree = "<group>";
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FA27739174F5EF6003AA9B7 /* main.m in Sources */,
+				5F529CBD1753303B009E0BAE /* Test1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
