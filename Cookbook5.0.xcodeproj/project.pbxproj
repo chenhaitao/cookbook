@@ -47,6 +47,13 @@
 			remoteGlobalIDString = 5F529CFD17534F35009E0BAE;
 			remoteInfo = GCDDemo2;
 		};
+		5F529D5C1753577D009E0BAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F529D581753577C009E0BAE /* createAMap.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5F529D321753577B009E0BAE;
+			remoteInfo = createAMap;
+		};
 		5F9D8CF1174C5BF50031C083 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5F9D8CE9174C5BF40031C083 /* UIButtonDemo.xcodeproj */;
@@ -284,6 +291,7 @@
 		5F529CB5175305FC009E0BAE /* useBlockDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = useBlockDemo.xcodeproj; path = useBlockDemo/useBlockDemo.xcodeproj; sourceTree = "<group>"; };
 		5F529CEE17533C37009E0BAE /* GCDDeom1.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GCDDeom1.xcodeproj; path = GCDDeom1/GCDDeom1.xcodeproj; sourceTree = "<group>"; };
 		5F529D2317534F35009E0BAE /* GCDDemo2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GCDDemo2.xcodeproj; path = GCDDemo2/GCDDemo2.xcodeproj; sourceTree = "<group>"; };
+		5F529D581753577C009E0BAE /* createAMap.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = createAMap.xcodeproj; path = createAMap/createAMap.xcodeproj; sourceTree = "<group>"; };
 		5F9D8CE9174C5BF40031C083 /* UIButtonDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UIButtonDemo.xcodeproj; path = UIButtonDemo/UIButtonDemo.xcodeproj; sourceTree = "<group>"; };
 		5F9D8D35174C65A10031C083 /* UIImageViewDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UIImageViewDemo.xcodeproj; path = UIImageViewDemo/UIImageViewDemo.xcodeproj; sourceTree = "<group>"; };
 		5F9D8D6C174C6A930031C083 /* UIScrollViewDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UIScrollViewDemo.xcodeproj; path = UIScrollViewDemo/UIScrollViewDemo.xcodeproj; sourceTree = "<group>"; };
@@ -426,6 +434,14 @@
 			isa = PBXGroup;
 			children = (
 				5F529D2817534F36009E0BAE /* GCDDemo2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F529D591753577C009E0BAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F529D5D1753577D009E0BAE /* createAMap.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -741,6 +757,7 @@
 		5FA4F9AF174E0E7C0087D8F6 /* 定位与地图 */ = {
 			isa = PBXGroup;
 			children = (
+				5F529D581753577C009E0BAE /* createAMap.xcodeproj */,
 			);
 			name = "定位与地图";
 			sourceTree = "<group>";
@@ -804,6 +821,10 @@
 				{
 					ProductGroup = 5F529C901752EFD5009E0BAE /* Products */;
 					ProjectRef = 5F529C8F1752EFD5009E0BAE /* blockObjectTestDemo.xcodeproj */;
+				},
+				{
+					ProductGroup = 5F529D591753577C009E0BAE /* Products */;
+					ProjectRef = 5F529D581753577C009E0BAE /* createAMap.xcodeproj */;
 				},
 				{
 					ProductGroup = 5FA347101743CB3400B22AE8 /* Products */;
@@ -968,6 +989,13 @@
 			fileType = wrapper.application;
 			path = GCDDemo2.app;
 			remoteRef = 5F529D2717534F36009E0BAE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5F529D5D1753577D009E0BAE /* createAMap.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = createAMap.app;
+			remoteRef = 5F529D5C1753577D009E0BAE /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		5F9D8CF2174C5BF50031C083 /* UIButtonDemo.app */ = {
