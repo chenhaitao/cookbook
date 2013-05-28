@@ -21,6 +21,8 @@
 		5F529D5F1753578F009E0BAE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F529D5E1753578F009E0BAE /* CoreLocation.framework */; };
 		5F529D6117535796009E0BAE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F529D6017535796009E0BAE /* MapKit.framework */; };
 		5FA17CB81754484600E6A73F /* MyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA17CB71754484600E6A73F /* MyAnnotation.m */; };
+		5FA17CBC1754579300E6A73F /* BluePin.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FA17CBA1754579300E6A73F /* BluePin.png */; };
+		5FA17CBD1754579300E6A73F /* BluePin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FA17CBB1754579300E6A73F /* BluePin@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		5F529D6017535796009E0BAE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		5FA17CB61754484600E6A73F /* MyAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAnnotation.h; sourceTree = "<group>"; };
 		5FA17CB71754484600E6A73F /* MyAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAnnotation.m; sourceTree = "<group>"; };
+		5FA17CBA1754579300E6A73F /* BluePin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BluePin.png; sourceTree = "<group>"; };
+		5FA17CBB1754579300E6A73F /* BluePin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BluePin@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 		5F529D3C1753577B009E0BAE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5FA17CBA1754579300E6A73F /* BluePin.png */,
+				5FA17CBB1754579300E6A73F /* BluePin@2x.png */,
 				5F529D3D1753577B009E0BAE /* createAMap-Info.plist */,
 				5F529D3E1753577B009E0BAE /* InfoPlist.strings */,
 				5F529D411753577B009E0BAE /* main.m */,
@@ -176,6 +182,8 @@
 				5F529D4A1753577C009E0BAE /* Default@2x.png in Resources */,
 				5F529D4C1753577C009E0BAE /* Default-568h@2x.png in Resources */,
 				5F529D4F1753577C009E0BAE /* MainStoryboard.storyboard in Resources */,
+				5FA17CBC1754579300E6A73F /* BluePin.png in Resources */,
+				5FA17CBD1754579300E6A73F /* BluePin@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

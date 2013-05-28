@@ -76,6 +76,11 @@
         [annotationView setCanShowCallout:YES];
     }
     annotationView.pinColor = myAnnotation.pinColor;
+    UIImage *pinImage = [UIImage imageNamed:@"BluePin"];
+    if (pinImage) {
+        annotationView.image = pinImage;
+    }
+    
     result = annotationView;
     return result;
 }
@@ -106,6 +111,7 @@
         CLLocationCoordinate2D coordinate = CLLocationCoordinate2DMake(location.coordinate.latitude, location.coordinate.longitude);
         self.myAnnotation =  [[MyAnnotation alloc] initWithCoordinates:coordinate title:@"title" subtitle:@"subtitle"];
         self.myAnnotation.pinColor = MKPinAnnotationColorPurple;
+        
         [self.myMapView addAnnotation:self.myAnnotation];
     }
     
