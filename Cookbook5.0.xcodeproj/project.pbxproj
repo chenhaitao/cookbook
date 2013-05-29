@@ -159,6 +159,13 @@
 			remoteGlobalIDString = 5FA17A851754E42B009D44C0;
 			remoteInfo = "滑动手势";
 		};
+		5FA17AE41754F24A009D44C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FA17AE01754F249009D44C0 /* 旋转手势.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5FA17ABA1754F248009D44C0;
+			remoteInfo = "旋转手势";
+		};
 		5FA17CFB17545A8C00E6A73F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5FA17CED17545A8B00E6A73F /* GeocoderDemo.xcodeproj */;
@@ -320,6 +327,7 @@
 		5F9EDE1B1744CCB00093A141 /* UISegmentControlDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UISegmentControlDemo.xcodeproj; path = UISegmentControlDemo/UISegmentControlDemo.xcodeproj; sourceTree = "<group>"; };
 		5FA0BC1A174B165700481A03 /* UITextViewDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UITextViewDemo.xcodeproj; path = UITextViewDemo/UITextViewDemo.xcodeproj; sourceTree = "<group>"; };
 		5FA17AAB1754E42B009D44C0 /* 滑动手势.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "滑动手势.xcodeproj"; path = "滑动手势/滑动手势.xcodeproj"; sourceTree = "<group>"; };
+		5FA17AE01754F249009D44C0 /* 旋转手势.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "旋转手势.xcodeproj"; path = "旋转手势/旋转手势.xcodeproj"; sourceTree = "<group>"; };
 		5FA17CED17545A8B00E6A73F /* GeocoderDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GeocoderDemo.xcodeproj; path = GeocoderDemo/GeocoderDemo.xcodeproj; sourceTree = "<group>"; };
 		5FA27743174F5EF6003AA9B7 /* BlockObjectDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BlockObjectDemo.xcodeproj; path = BlockObjectDemo/BlockObjectDemo.xcodeproj; sourceTree = "<group>"; };
 		5FA2A5DA1749C4250078FDA6 /* UINavigationControllerDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UINavigationControllerDemo.xcodeproj; path = UINavigationController/UINavigationControllerDemo.xcodeproj; sourceTree = "<group>"; };
@@ -579,6 +587,7 @@
 			isa = PBXGroup;
 			children = (
 				5FA17AAB1754E42B009D44C0 /* 滑动手势.xcodeproj */,
+				5FA17AE01754F249009D44C0 /* 旋转手势.xcodeproj */,
 			);
 			name = "手势识别";
 			sourceTree = "<group>";
@@ -587,6 +596,14 @@
 			isa = PBXGroup;
 			children = (
 				5FA17AB01754E42D009D44C0 /* 滑动手势.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FA17AE11754F249009D44C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FA17AE51754F24A009D44C0 /* 旋转手势.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1001,6 +1018,10 @@
 					ProjectRef = 5F529CB5175305FC009E0BAE /* useBlockDemo.xcodeproj */;
 				},
 				{
+					ProductGroup = 5FA17AE11754F249009D44C0 /* Products */;
+					ProjectRef = 5FA17AE01754F249009D44C0 /* 旋转手势.xcodeproj */;
+				},
+				{
 					ProductGroup = 5FA17AAC1754E42B009D44C0 /* Products */;
 					ProjectRef = 5FA17AAB1754E42B009D44C0 /* 滑动手势.xcodeproj */;
 				},
@@ -1151,6 +1172,13 @@
 			fileType = wrapper.application;
 			path = "滑动手势.app";
 			remoteRef = 5FA17AAF1754E42D009D44C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5FA17AE51754F24A009D44C0 /* 旋转手势.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "旋转手势.app";
+			remoteRef = 5FA17AE41754F24A009D44C0 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		5FA17CFC17545A8C00E6A73F /* GeocoderDemo.app */ = {
