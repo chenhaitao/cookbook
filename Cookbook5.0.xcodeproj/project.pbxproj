@@ -194,6 +194,13 @@
 			remoteGlobalIDString = 5FA1F3531755A1C7005AFD1A;
 			remoteInfo = "点击手势";
 		};
+		5FA1F3B21755B8C8005AFD1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FA1F3AE1755B8C7005AFD1A /* 放大缩小手势.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5FA1F3881755B8C7005AFD1A;
+			remoteInfo = "放大缩小手势";
+		};
 		5FA27747174F5EF7003AA9B7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5FA27743174F5EF6003AA9B7 /* BlockObjectDemo.xcodeproj */;
@@ -353,6 +360,7 @@
 		5FA1F2E7175594D0005AFD1A /* 拖拽.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "拖拽.xcodeproj"; path = "拖拽/拖拽.xcodeproj"; sourceTree = "<group>"; };
 		5FA1F34417559DCE005AFD1A /* 长按手势.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "长按手势.xcodeproj"; path = "长按手势/长按手势.xcodeproj"; sourceTree = "<group>"; };
 		5FA1F3791755A1C7005AFD1A /* 点击手势.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "点击手势.xcodeproj"; path = "点击手势/点击手势.xcodeproj"; sourceTree = "<group>"; };
+		5FA1F3AE1755B8C7005AFD1A /* 放大缩小手势.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "放大缩小手势.xcodeproj"; path = "放大缩小手势/放大缩小手势.xcodeproj"; sourceTree = "<group>"; };
 		5FA27743174F5EF6003AA9B7 /* BlockObjectDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BlockObjectDemo.xcodeproj; path = BlockObjectDemo/BlockObjectDemo.xcodeproj; sourceTree = "<group>"; };
 		5FA2A5DA1749C4250078FDA6 /* UINavigationControllerDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UINavigationControllerDemo.xcodeproj; path = UINavigationController/UINavigationControllerDemo.xcodeproj; sourceTree = "<group>"; };
 		5FA2A6161749CD4E0078FDA6 /* CustomImageOnNavigationbar.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CustomImageOnNavigationbar.xcodeproj; path = CustomImageOnNavigationbar/CustomImageOnNavigationbar.xcodeproj; sourceTree = "<group>"; };
@@ -615,6 +623,7 @@
 				5FA1F2E7175594D0005AFD1A /* 拖拽.xcodeproj */,
 				5FA1F34417559DCE005AFD1A /* 长按手势.xcodeproj */,
 				5FA1F3791755A1C7005AFD1A /* 点击手势.xcodeproj */,
+				5FA1F3AE1755B8C7005AFD1A /* 放大缩小手势.xcodeproj */,
 			);
 			name = "手势识别";
 			sourceTree = "<group>";
@@ -663,6 +672,14 @@
 			isa = PBXGroup;
 			children = (
 				5FA1F37E1755A1C9005AFD1A /* 点击手势.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FA1F3AF1755B8C7005AFD1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FA1F3B31755B8C8005AFD1A /* 放大缩小手势.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1073,6 +1090,10 @@
 					ProjectRef = 5FA1F2E7175594D0005AFD1A /* 拖拽.xcodeproj */;
 				},
 				{
+					ProductGroup = 5FA1F3AF1755B8C7005AFD1A /* Products */;
+					ProjectRef = 5FA1F3AE1755B8C7005AFD1A /* 放大缩小手势.xcodeproj */;
+				},
+				{
 					ProductGroup = 5FA17AE11754F249009D44C0 /* Products */;
 					ProjectRef = 5FA17AE01754F249009D44C0 /* 旋转手势.xcodeproj */;
 				},
@@ -1270,6 +1291,13 @@
 			fileType = wrapper.application;
 			path = "点击手势.app";
 			remoteRef = 5FA1F37D1755A1C9005AFD1A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5FA1F3B31755B8C8005AFD1A /* 放大缩小手势.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "放大缩小手势.app";
+			remoteRef = 5FA1F3B21755B8C8005AFD1A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		5FA27748174F5EF7003AA9B7 /* BlockObjectDemo */ = {
