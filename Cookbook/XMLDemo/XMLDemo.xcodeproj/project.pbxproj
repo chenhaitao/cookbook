@@ -18,6 +18,8 @@
 		5F9FA5361758D0D1005C1299 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F9FA5351758D0D1005C1299 /* Default-568h@2x.png */; };
 		5F9FA5391758D0D1005C1299 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F9FA5371758D0D1005C1299 /* MainStoryboard.storyboard */; };
 		5F9FA53C1758D0D1005C1299 /* ECViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9FA53B1758D0D1005C1299 /* ECViewController.m */; };
+		5FA1CDF1175B8BBB008E280E /* MyXML.xml in Resources */ = {isa = PBXBuildFile; fileRef = 5FA1CDF0175B8BBB008E280E /* MyXML.xml */; };
+		5FA1CDF4175B92AF008E280E /* XMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA1CDF3175B92AF008E280E /* XMLElement.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,9 @@
 		5F9FA5381758D0D1005C1299 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		5F9FA53A1758D0D1005C1299 /* ECViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECViewController.h; sourceTree = "<group>"; };
 		5F9FA53B1758D0D1005C1299 /* ECViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECViewController.m; sourceTree = "<group>"; };
+		5FA1CDF0175B8BBB008E280E /* MyXML.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = MyXML.xml; sourceTree = "<group>"; };
+		5FA1CDF2175B92AF008E280E /* XMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLElement.h; sourceTree = "<group>"; };
+		5FA1CDF3175B92AF008E280E /* XMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLElement.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +94,8 @@
 				5F9FA53A1758D0D1005C1299 /* ECViewController.h */,
 				5F9FA53B1758D0D1005C1299 /* ECViewController.m */,
 				5F9FA5261758D0D1005C1299 /* Supporting Files */,
+				5FA1CDF2175B92AF008E280E /* XMLElement.h */,
+				5FA1CDF3175B92AF008E280E /* XMLElement.m */,
 			);
 			path = XMLDemo;
 			sourceTree = "<group>";
@@ -103,6 +110,7 @@
 				5F9FA5311758D0D1005C1299 /* Default.png */,
 				5F9FA5331758D0D1005C1299 /* Default@2x.png */,
 				5F9FA5351758D0D1005C1299 /* Default-568h@2x.png */,
+				5FA1CDF0175B8BBB008E280E /* MyXML.xml */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -164,6 +172,7 @@
 				5F9FA5341758D0D1005C1299 /* Default@2x.png in Resources */,
 				5F9FA5361758D0D1005C1299 /* Default-568h@2x.png in Resources */,
 				5F9FA5391758D0D1005C1299 /* MainStoryboard.storyboard in Resources */,
+				5FA1CDF1175B8BBB008E280E /* MyXML.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +186,7 @@
 				5F9FA52C1758D0D1005C1299 /* main.m in Sources */,
 				5F9FA5301758D0D1005C1299 /* ECAppDelegate.m in Sources */,
 				5F9FA53C1758D0D1005C1299 /* ECViewController.m in Sources */,
+				5FA1CDF4175B92AF008E280E /* XMLElement.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +309,7 @@
 				5F9FA5411758D0D1005C1299 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

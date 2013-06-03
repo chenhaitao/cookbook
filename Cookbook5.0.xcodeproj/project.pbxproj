@@ -180,6 +180,13 @@
 			remoteGlobalIDString = 5FA17CC717545A8B00E6A73F;
 			remoteInfo = GeocoderDemo;
 		};
+		5FA1A817175C86040008A1BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FA1A7DE175C86030008A1BD /* 访问音乐库.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5FA1A7B8175C86030008A1BD;
+			remoteInfo = "访问音乐库";
+		};
 		5FA1A8BD1758837500BE8A58 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5FA1A8B91758837300BE8A58 /* 异步下载.xcodeproj */;
@@ -228,6 +235,13 @@
 			proxyType = 2;
 			remoteGlobalIDString = 5FA1A9D11758A12300BE8A58;
 			remoteInfo = TwitterDemo;
+		};
+		5FA1CE5C175BA133008E280E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FA1CE58175BA131008E280E /* 播放音频.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5FA1CE32175BA131008E280E;
+			remoteInfo = "播放音频";
 		};
 		5FA1F310175594D1005AFD1A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -299,6 +313,13 @@
 			remoteGlobalIDString = 5FA2A6DD174A1B9E0078FDA6;
 			remoteInfo = UITextFieldDemo;
 		};
+		5FA34712175C40C500B815C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FA3470E175C40C400B815C3 /* recorderDemo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5FA346E8175C40C400B815C3;
+			remoteInfo = recorderDemo;
+		};
 		5FA347131743CB3500B22AE8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5FA3470F1743CB3400B22AE8 /* Creating and using switches with UISwitch.xcodeproj */;
@@ -312,6 +333,13 @@
 			proxyType = 2;
 			remoteGlobalIDString = 5FA3471F1743D17800B22AE8;
 			remoteInfo = UIPickerViewDemo;
+		};
+		5FA347E2175C6F5200B815C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FA347AF175C6F5000B815C3 /* 播放视频.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5FA34789175C6F5000B815C3;
+			remoteInfo = "播放视频";
 		};
 		5FA3D9E717433AA700DE76A4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -414,6 +442,7 @@
 		5FA17AAB1754E42B009D44C0 /* 滑动手势.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "滑动手势.xcodeproj"; path = "滑动手势/滑动手势.xcodeproj"; sourceTree = "<group>"; };
 		5FA17AE01754F249009D44C0 /* 旋转手势.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "旋转手势.xcodeproj"; path = "旋转手势/旋转手势.xcodeproj"; sourceTree = "<group>"; };
 		5FA17CED17545A8B00E6A73F /* GeocoderDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GeocoderDemo.xcodeproj; path = GeocoderDemo/GeocoderDemo.xcodeproj; sourceTree = "<group>"; };
+		5FA1A7DE175C86030008A1BD /* 访问音乐库.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "访问音乐库.xcodeproj"; path = "访问音乐库/访问音乐库.xcodeproj"; sourceTree = "<group>"; };
 		5FA1A8B91758837300BE8A58 /* 异步下载.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "异步下载.xcodeproj"; path = "异步下载/异步下载.xcodeproj"; sourceTree = "<group>"; };
 		5FA1A8EE17588A8D00BE8A58 /* 同步下载.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "同步下载.xcodeproj"; path = "同步下载/同步下载.xcodeproj"; sourceTree = "<group>"; };
 		5FA1A92317588D6000BE8A58 /* GCDAnd同步下载.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "GCDAnd同步下载.xcodeproj"; path = "GCDAnd同步下载/GCDAnd同步下载.xcodeproj"; sourceTree = "<group>"; };
@@ -421,6 +450,7 @@
 		5FA1A98D175895E300BE8A58 /* HttpPostDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = HttpPostDemo.xcodeproj; path = HttpPostDemo/HttpPostDemo.xcodeproj; sourceTree = "<group>"; };
 		5FA1A9C2175898FC00BE8A58 /* jsonDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = jsonDemo.xcodeproj; path = jsonDemo/jsonDemo.xcodeproj; sourceTree = "<group>"; };
 		5FA1A9F71758A12300BE8A58 /* TwitterDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TwitterDemo.xcodeproj; path = TwitterDemo/TwitterDemo.xcodeproj; sourceTree = "<group>"; };
+		5FA1CE58175BA131008E280E /* 播放音频.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "播放音频.xcodeproj"; path = "播放音频/播放音频.xcodeproj"; sourceTree = "<group>"; };
 		5FA1F2E7175594D0005AFD1A /* 拖拽.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "拖拽.xcodeproj"; path = "拖拽/拖拽.xcodeproj"; sourceTree = "<group>"; };
 		5FA1F34417559DCE005AFD1A /* 长按手势.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "长按手势.xcodeproj"; path = "长按手势/长按手势.xcodeproj"; sourceTree = "<group>"; };
 		5FA1F3791755A1C7005AFD1A /* 点击手势.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "点击手势.xcodeproj"; path = "点击手势/点击手势.xcodeproj"; sourceTree = "<group>"; };
@@ -432,8 +462,10 @@
 		5FA2A68A1749E0790078FDA6 /* UITabBarDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UITabBarDemo.xcodeproj; path = UITabBarDemo/UITabBarDemo.xcodeproj; sourceTree = "<group>"; };
 		5FA2A6CE174A16AA0078FDA6 /* UILabelDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UILabelDemo.xcodeproj; path = UILabelDemo/UILabelDemo.xcodeproj; sourceTree = "<group>"; };
 		5FA2A703174A1B9E0078FDA6 /* UITextFieldDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UITextFieldDemo.xcodeproj; path = UITextFieldDemo/UITextFieldDemo.xcodeproj; sourceTree = "<group>"; };
+		5FA3470E175C40C400B815C3 /* recorderDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = recorderDemo.xcodeproj; path = recorderDemo/recorderDemo.xcodeproj; sourceTree = "<group>"; };
 		5FA3470F1743CB3400B22AE8 /* Creating and using switches with UISwitch.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Creating and using switches with UISwitch.xcodeproj"; path = "Creating and using switches with UISwitch/Creating and using switches with UISwitch.xcodeproj"; sourceTree = "<group>"; };
 		5FA347451743D17800B22AE8 /* UIPickerViewDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UIPickerViewDemo.xcodeproj; path = UIPickerViewDemo/UIPickerViewDemo.xcodeproj; sourceTree = "<group>"; };
+		5FA347AF175C6F5000B815C3 /* 播放视频.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "播放视频.xcodeproj"; path = "播放视频/播放视频.xcodeproj"; sourceTree = "<group>"; };
 		5FA3D9E317433AA600DE76A4 /* UIAlertViewDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UIAlertViewDemo.xcodeproj; path = UIAlertViewDemo/UIAlertViewDemo.xcodeproj; sourceTree = "<group>"; };
 		5FA4F82A174DA8D50087D8F6 /* InstantiatingATableView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = InstantiatingATableView.xcodeproj; path = InstantiatingATableView/InstantiatingATableView.xcodeproj; sourceTree = "<group>"; };
 		5FA4F85F174DB5BD0087D8F6 /* levelTableViewDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = levelTableViewDemo.xcodeproj; path = levelTableViewDemo/levelTableViewDemo.xcodeproj; sourceTree = "<group>"; };
@@ -489,6 +521,7 @@
 		5F52471B1742769F00157533 /* Cookbook */ = {
 			isa = PBXGroup;
 			children = (
+				5FA1CDF5175BA0C1008E280E /* audio and media */,
 				5FA1A85E1758834800BE8A58 /* 网络 */,
 				5FA17A561754E0CF009D44C0 /* 手势识别 */,
 				5F529C551752EFA5009E0BAE /* blockObject */,
@@ -725,6 +758,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		5FA1A7DF175C86030008A1BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FA1A818175C86040008A1BD /* 访问音乐库.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		5FA1A85E1758834800BE8A58 /* 网络 */ = {
 			isa = PBXGroup;
 			children = (
@@ -792,6 +833,25 @@
 			isa = PBXGroup;
 			children = (
 				5FA1A9FC1758A12500BE8A58 /* TwitterDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FA1CDF5175BA0C1008E280E /* audio and media */ = {
+			isa = PBXGroup;
+			children = (
+				5FA1CE58175BA131008E280E /* 播放音频.xcodeproj */,
+				5FA3470E175C40C400B815C3 /* recorderDemo.xcodeproj */,
+				5FA347AF175C6F5000B815C3 /* 播放视频.xcodeproj */,
+				5FA1A7DE175C86030008A1BD /* 访问音乐库.xcodeproj */,
+			);
+			name = "audio and media";
+			sourceTree = "<group>";
+		};
+		5FA1CE59175BA131008E280E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FA1CE5D175BA133008E280E /* 播放音频.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -895,6 +955,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		5FA3470F175C40C400B815C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FA34713175C40C500B815C3 /* recorderDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		5FA347101743CB3400B22AE8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -907,6 +975,14 @@
 			isa = PBXGroup;
 			children = (
 				5FA3474A1743D17900B22AE8 /* UIPickerViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FA347B0175C6F5000B815C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FA347E3175C6F5200B815C3 /* 播放视频.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1162,6 +1238,10 @@
 					ProjectRef = 5FA4F936174DF5220087D8F6 /* MovingSectionAndCell.xcodeproj */;
 				},
 				{
+					ProductGroup = 5FA3470F175C40C400B815C3 /* Products */;
+					ProjectRef = 5FA3470E175C40C400B815C3 /* recorderDemo.xcodeproj */;
+				},
+				{
 					ProductGroup = 5FA4F96D174E01620087D8F6 /* Products */;
 					ProjectRef = 5FA4F96C174E01620087D8F6 /* SegueDemo.xcodeproj */;
 				},
@@ -1266,6 +1346,14 @@
 					ProjectRef = 5FA1F2E7175594D0005AFD1A /* 拖拽.xcodeproj */;
 				},
 				{
+					ProductGroup = 5FA347B0175C6F5000B815C3 /* Products */;
+					ProjectRef = 5FA347AF175C6F5000B815C3 /* 播放视频.xcodeproj */;
+				},
+				{
+					ProductGroup = 5FA1CE59175BA131008E280E /* Products */;
+					ProjectRef = 5FA1CE58175BA131008E280E /* 播放音频.xcodeproj */;
+				},
+				{
 					ProductGroup = 5FA1F3AF1755B8C7005AFD1A /* Products */;
 					ProjectRef = 5FA1F3AE1755B8C7005AFD1A /* 放大缩小手势.xcodeproj */;
 				},
@@ -1280,6 +1368,10 @@
 				{
 					ProductGroup = 5FA1F37A1755A1C7005AFD1A /* Products */;
 					ProjectRef = 5FA1F3791755A1C7005AFD1A /* 点击手势.xcodeproj */;
+				},
+				{
+					ProductGroup = 5FA1A7DF175C86030008A1BD /* Products */;
+					ProjectRef = 5FA1A7DE175C86030008A1BD /* 访问音乐库.xcodeproj */;
 				},
 				{
 					ProductGroup = 5FA1F34517559DCE005AFD1A /* Products */;
@@ -1455,6 +1547,13 @@
 			remoteRef = 5FA17CFB17545A8C00E6A73F /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		5FA1A818175C86040008A1BD /* 访问音乐库.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "访问音乐库.app";
+			remoteRef = 5FA1A817175C86040008A1BD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		5FA1A8BE1758837500BE8A58 /* 异步下载.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
@@ -1502,6 +1601,13 @@
 			fileType = wrapper.application;
 			path = TwitterDemo.app;
 			remoteRef = 5FA1A9FB1758A12500BE8A58 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5FA1CE5D175BA133008E280E /* 播放音频.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "播放音频.app";
+			remoteRef = 5FA1CE5C175BA133008E280E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		5FA1F311175594D1005AFD1A /* 拖拽.app */ = {
@@ -1574,6 +1680,13 @@
 			remoteRef = 5FA2A707174A1B9F0078FDA6 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		5FA34713175C40C500B815C3 /* recorderDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = recorderDemo.app;
+			remoteRef = 5FA34712175C40C500B815C3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		5FA347141743CB3500B22AE8 /* Creating and using switches with UISwitch.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
@@ -1586,6 +1699,13 @@
 			fileType = wrapper.application;
 			path = UIPickerViewDemo.app;
 			remoteRef = 5FA347491743D17900B22AE8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5FA347E3175C6F5200B815C3 /* 播放视频.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "播放视频.app";
+			remoteRef = 5FA347E2175C6F5200B815C3 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		5FA3D9E817433AA700DE76A4 /* UIAlertViewDemo.app */ = {
